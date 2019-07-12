@@ -1,0 +1,109 @@
+default:
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        yAxisRange:
+                - 0.75
+                - 8
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - jetClustering/2SCrystalBallSigmaResVsCosTheta
+                - jetClustering/ResVsCosTheta
+                - jetClustering/2SCrystalBall_LeftLimit_VsCosThetaHist
+                # - jetClustering/2SCrystalBall_RightLimit_VsCosThetaHist
+                - jetClustering/2SCrystalBall_GaussCoreWidth_VsCosThetaHist
+        savePictDir: jetClusteringFitVsBinning_DR09/
+
+JER_91_2_RMS90_90bins:
+        legTitle:
+                - "90 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_90bins.root
+
+JER_91_2_RMS90_105bins:
+        legTitle:
+                - "105 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_105bins.root
+
+JER_91_2_RMS90_120bins:
+        legTitle:
+                - "120 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_120bins.root
+
+JER_91_2_RMS90_135bins:
+        legTitle:
+                - "135 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_135bins.root
+
+JER_91_2_RMS90_150bins:
+        legTitle:
+                - "150 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_150bins.root
+
+JER_91_2_RMS90_165bins:
+        legTitle:
+                - "165 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_165bins.root
+
+JER_91_2_RMS90_180bins:
+        legTitle:
+                - "180 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_180bins.root
+
+JER_91_2_RMS90_195bins:
+        legTitle:
+                - "195 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_195bins.root
+
+JER_91_2_RMS90_210bins:
+        legTitle:
+                - "210 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - DR09_210bins.root

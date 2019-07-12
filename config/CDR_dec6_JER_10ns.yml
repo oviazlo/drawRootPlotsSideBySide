@@ -1,0 +1,24 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        yAxisTitleOffset: 0.95
+        savePictDir: "CDR_JER_10ns"
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 8.0
+        legPos:
+            - 0.2
+            - 0.76
+            - 0.8
+            - 0.9
+        histName: 
+            - totalEnergy/ResVsCosTheta
+
+JER_RMS90_totalE_91_2gev_vs_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_run1_files/totalE_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_run1_files/totalE_hists.root
+        legTitle:
+            - "45.6 GeV Jets"
+            - "182.5 GeV Jets"

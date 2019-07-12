@@ -1,0 +1,233 @@
+default:
+    yAxisTitleOffset: 0.95
+    textLabel1:
+        pos:
+        - 0.04 
+        - 0.49 
+        title: "VLC11 Jets"
+    latexLabel1:
+        pos:
+        - 0.04
+        - 0.28 
+        title: "#approx 182.5 GeV"
+    # savePictDir: "JER_fitting_365GeV_logy"
+    # logY: True
+    savePictDir: "JER_fitting_365GeV"
+    logY: False
+    legTitle:
+        - ""
+    yAxisRange:
+        - 0.1
+        - 1100 
+    xAxisRange:
+        - 0.5
+        - 1.5
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_165bins.root
+    markerStyle:
+        - 1
+        - 1
+    drawHistFuncs: False
+    xAxisLabel: "E_{j}^{R}/E_{j}^{G}"
+    yAxisLabel: "A.U."
+    yAxisTitleSize: 0.055
+    yAxisTitleOffset: 1.3
+    xAxisTitleSize: 0.055
+    xAxisTitleOffset: 1.2
+
+JER_365GeV_fit_hist0:
+    histName:
+        - jetClustering/fPFA_0
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        # from /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/365GeV_400ns_st2/hist_0.txt
+        parameters: "541.466    1.007    0.034    1.000    9.486    1.177    5.246"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.0 < cos(#theta) < 0.1"
+
+JER_365GeV_fit_hist1:
+    histName:
+        - jetClustering/fPFA_1
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "594.828 1.007 0.032 1.000 9.545 1.042 6.844"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.1 < cos(#theta) < 0.2"
+
+JER_365GeV_fit_hist2:
+    histName:
+        - jetClustering/fPFA_2
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "646.258 1.007 0.034 1.141 6.721 1.315 4.782"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.2 < cos(#theta) < 0.3"
+
+JER_365GeV_fit_hist3:
+    histName:
+        - jetClustering/fPFA_3
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "689.287 1.008 0.033 1.000 20.529 1.327 4.589"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.3 < cos(#theta) < 0.4"
+
+JER_365GeV_fit_hist4:
+    histName:
+        - jetClustering/fPFA_4
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "776.643 1.008 0.033 1.087 13.510 1.542 3.072"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.4 < cos(#theta) < 0.5"
+
+JER_365GeV_fit_hist5:
+    histName:
+        - jetClustering/fPFA_5
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "824.372 1.011 0.031 1.000 14.456 1.401 3.977"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.5 < cos(#theta) < 0.6"
+
+JER_365GeV_fit_hist6:
+    histName:
+        - jetClustering/fPFA_6
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "824.384 1.014 0.034 1.203 9.820 1.228 5.370"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.6 < cos(#theta) < 0.7"
+
+JER_365GeV_fit_hist7:
+    histName:
+        - jetClustering/fPFA_7
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "898.081 1.015 0.035 1.218 30.000 1.239 5.837"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.7 < cos(#theta) < 0.8"
+
+JER_365GeV_fit_hist8:
+    histName:
+        - jetClustering/fPFA_8
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "950.691 1.010 0.033 1.000 30.000 1.147 5.755"
+    latexLabel2:
+        pos:
+        - 0.57
+        - 0.49 
+        title: "0.8 < cos(#theta) < 0.9"
+
+JER_365GeV_fit_hist9:
+    histName:
+        - jetClustering/fPFA_9
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "198.025 1.008 0.040 1.061 30.000 1.194 6.125"
+    latexLabel2:
+        pos:
+        - 0.48
+        - 0.49 
+        title: "0.9 < cos(#theta) < 0.925"
+
+JER_365GeV_fit_hist10:
+    histName:
+        - jetClustering/fPFA_10
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "193.361 1.005 0.039 1.547 2.782 1.000 14.658"
+    latexLabel2:
+        pos:
+        - 0.48
+        - 0.49 
+        title: "0.925 < cos(#theta) < 0.95"
+
+JER_365GeV_fit_hist11:
+    histName:
+        - jetClustering/fPFA_11
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "147.629 1.009 0.054 2.262 0.878 2.047 1.160"
+    latexLabel2:
+        pos:
+        - 0.48
+        - 0.49 
+        title: "0.95 < cos(#theta) < 0.975"
+
+JER_365GeV_fit_hist12:
+    histName:
+        - jetClustering/fPFA_12
+    tf1: 
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "83.156  0.999 0.051 1.000 2.594 1.155 6.114"
+    latexLabel2:
+        pos:
+        - 0.48
+        - 0.49 
+        title: "0.975 < cos(#theta) < 1.0"

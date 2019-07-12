@@ -1,0 +1,53 @@
+default:
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: CDR_jetAngularAndEnergyRes_DR11
+        # yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        # legCaptionMode: "RMS"
+        # normalize: True
+        # logY: True
+        # drawOption: "HIST"
+        # xAxisRange:
+        #     - -5
+        #     - 5
+        legTitle:
+            - "#approx 45.6 GeV Jets"
+            - "#approx 182.5 GeV Jets"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+        textLabel:
+            pos:
+            - 0.065
+            - 0.9 
+            title: "VLC11 Jets" 
+        yAxisTitleSize: 0.06
+        yAxisTitleOffset: 1.35
+        legPos:
+                - 0.2
+                - 0.65
+                - 0.78
+                - 0.77
+        yAxisRange:
+            - 0.0
+            - 1.9
+
+thetaRes_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/thetaRes
+        # yAxisRange:
+        #     - 0.0
+        #     - 0.6
+        # legPos:
+        #         - 0.2
+        #         - 0.2
+        #         - 0.78
+        #         - 0.33
+        yAxisLabel: "RMS_{90}#Delta#theta(j_{R},j_{G}) [#circ]"
+
+phiRes_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/phiRes
+        yAxisLabel: "RMS_{90}#Delta#phi(j_{R},j_{G}) [#circ]"
+

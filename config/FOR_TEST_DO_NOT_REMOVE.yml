@@ -1,0 +1,132 @@
+default:
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: jetAngularAndEnergyRes_DR11
+        # yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legCaptionMode: "RMS"
+        # normalize: True
+        # logY: True
+        # drawOption: "HIST"
+        # xAxisRange:
+        #     - -5
+        #     - 5
+        legTitle:
+                - "#sqrt{s} = 91.2 GeV, DR11"
+                - "#sqrt{s} = 365 GeV, DR11"
+                - "#sqrt{s} = 91.2 GeV, DR09"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR09_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR09_hists.root
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        histColor:
+            - 777
+            - 888
+            - 999
+        markerStyle:
+            - 4
+            - 5
+            - 6
+
+thetaRes_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/thetaRes
+        yAxisRange:
+            - 0.0
+            - 0.6
+        legPos:
+                - 0.2
+                - 0.2
+                - 0.78
+                - 0.35
+        yAxisLabel: "RMS_{90}#Delta#theta(j_{R},j_{G}) [#circ]"
+        yAxisTitleSize: 0.06
+        yAxisTitleOffset: 1.35
+
+phiRes_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/phiRes
+        yAxisRange:
+            - 0.0
+            - 1.9
+        yAxisLabel: "RMS_{90}#Delta#phi(j_{R},j_{G}) [#circ]"
+        
+
+JER_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 0.0
+            - 10.0 
+
+testTextLabels:
+        textLabel1:
+            pos:
+                - 1
+                - 2
+            title: label1
+        textLabel2:
+            pos:
+                - 5
+                - 6
+            title: label2
+        histName: 
+                - jetClustering/phiRes
+
+testTextLabels2:
+        textLabel1:
+            pos:
+                - 1
+                - 2
+            title: label1
+            abra: cadabra
+        histName: 
+                - jetClustering/phiRes
+
+testLatexLabels1:
+        latexLabel1:
+            pos:
+                - 1
+                - 2
+            title: label1
+            NDC: s
+        histName: 
+                - jetClustering/phiRes
+
+testLatexLabels2:
+        latexLabel1:
+            pos:
+                - 1
+                - 2
+            title: label1
+            Text: sdsgf 
+        histName: 
+                - jetClustering/phiRes
+
+testTF1_1:
+    tf1: # /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/91GeV_400ns_st2/hist_0.txt
+        func: "dscb"
+        range:
+            - 0.7
+            - 1.5
+        parameters: "489.540    1.009    0.038    1.302    4.265    1.000    5.944"
+    tf2: # /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/91GeV_400ns_st2/hist_1.txt
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.3
+        parameters: "495.569    1.009    0.039    1.371    6.794    1.000    5.868"
+
+testTF1_2:
+    tf1: # /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/91GeV_400ns_st2/hist_0.txt
+        func: "gaus"
+        range:
+            - 0.7
+            - 1.5
+        parameters: "489.540    1.009    0.038    1.302    4.265    1.000    5.944"

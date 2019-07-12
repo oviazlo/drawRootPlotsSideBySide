@@ -1,0 +1,10 @@
+# Path used by dynamic loader to find shared libraries
+*.Root.DynamicPath:      $ROOTSYS/lib
+
+# Activate memory statistics
+Rint.Root.MemStat:        0
+Rint.Logon:               ${HOME}/rootlogon.C
+Rint.Load:                ${HOME}/rootalias.C
+
+Rint.Canvas.MoveOpaque:  false
+Rint.Canvas.HighLightColor: 5

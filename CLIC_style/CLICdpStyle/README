@@ -1,0 +1,28 @@
+The CLICdp style is based on the style used for the CLIC CDR by Astrid Munnich, therefore
+guidelines how to use the CLICdp style can be found in ClicCDRPlots.pdf.
+
+The technical part:
+
+Option 1: Only load the style for a specific root macro:
+To use the CLICdpStyle copy the file rootstyle/CLICdpStyle.C to your home directory
+and load it in your plotting macros:
+
+ gROOT->ProcessLine(".L ${HOME}/CLICdpStyle.C");
+ CLICdpStyle();
+ 
+ in pyROOT:
+
+  import ROOT
+  ROOT.gROOT.LoadMacro("CLICdpStyle.C+")
+  ROOT.CLICdpStyle()
+
+
+Option 2: load the style per default when starting root:
+Copy in addition to the CLICdpStyle.C the files .rootrc, rootalias.C and rootlogon.C
+provided in CLICdpStyle/rootstyle/ to your home directory.
+The rootlogon gets executed automatically when root is started.
+
+Note: If you choose option 2 do not load the style again in the macro via option 1. It will 
+cause a segmentation fault in root.
+
+

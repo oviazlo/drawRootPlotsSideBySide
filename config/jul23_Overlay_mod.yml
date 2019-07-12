@@ -1,0 +1,140 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/FCCee_o1_v03/overlay/
+        legPos:
+                - 0.6
+                - 0.7
+                - 0.9
+                - 0.9
+        xAxisTitleSize: 0.06
+        # yAxisTitleOffset: 0.95
+
+        # fileName:
+        #         - zuds_test.root
+        # histNamePrefix: zuds_
+        
+        fileName:
+                - 365GeV_bigSample.root
+        histNamePrefix: 365GeV_
+        savePictDir: "365gev_background_contribution"
+
+        # fileName:
+        #         - 91GeV_bigSample.root
+        # histNamePrefix: 91GeV_
+        # scaleFactor: 0.05
+        # savePictDir: "91gev_background_contribution"
+
+overlay_energySpectrum:
+        # yAxisRange:
+        #         - 0.0
+        #         - 4.0
+        xAxisRange:
+                - 0.0
+                - 0.1
+        legTitle:
+                - "ECAL"
+                - "HCAL"
+        histName: 
+                - ECALEndcap/CAL/energySpectrum
+                - HCALEndcap/CAL/energySpectrum
+        rebinFactor: 20
+        logY: True
+
+overlay_energyVsRadius_Endcap:
+        yAxisRange:
+                - 0.0
+                - 4.0
+                # - 0.2
+        xAxisRange:
+                - 0.0
+                - 3000.0
+        legTitle:
+                - "ECAL Endcap"
+                - "HCAL Endcap"
+        histName: 
+                - ECALEndcap/CAL/energyVsRadius
+                - HCALEndcap/CAL/energyVsRadius
+        yAxisLabel: "Deposited energy [GeV / 50 mm / BX]"
+        # yAxisLabel: "Deposited energy [GeV / 50 mm / 20 BX]"
+        yAxisTitleSize: 0.05
+        yAxisTitleOffset: 1.7
+
+overlay_energyVsZ_Barrel:
+        yAxisRange:
+                - 0.0
+                - 0.3
+                # - 0.015
+        legTitle:
+                - "ECAL Barrel"
+                - "HCAL Barrel"
+        histName: 
+                - ECALBarrel/CAL/energyVsZ2
+                - HCALBarrel/CAL/energyVsZ3
+        yAxisLabel: "Deposited energy [GeV / 10 cells / BX]"
+        # yAxisLabel: "Deposited energy [GeV / 10 cells / 20 BX]"
+        yAxisTitleSize: 0.05
+        yAxisTitleOffset: 1.9
+
+overlay_energyVsTheta:
+        legPos:
+                - 0.3
+                - 0.7
+                - 0.6
+                - 0.9
+        yAxisRange:
+                - 0.0
+                - 3.5
+        legTitle:
+                - "ECAL Barrel"
+                - "ECAL Endcap"
+                - "HCAL Barrel"
+                - "HCAL Endcap"
+        histName: 
+                - ECALBarrel/CAL/energyVsTheta
+                - ECALEndcap/CAL/energyVsTheta
+                - HCALBarrel/CAL/energyVsTheta
+                - HCALEndcap/CAL/energyVsTheta
+        yAxisTitleSize: 0.06
+
+overlay_totalEnergy:
+        yAxisRange:
+                - 0.0
+                - 10 
+        xAxisRange:
+                - 0.0
+                - 25
+        legTitle:
+                - "ECAL Barrel"
+                - "ECAL Endcap"
+                - "HCAL Barrel"
+                - "HCAL Endcap"
+        histName: 
+                - ECALBarrel/CAL/Energy
+                - ECALEndcap/CAL/Energy
+                - HCALBarrel/CAL/Energy
+                - HCALEndcap/CAL/Energy
+
+overlay_energyVsHitTime:
+# overlay_hitTiming:
+        yAxisLabel: "RAW Energy [1 / 1 ns]"
+        histName:
+                - ECALEndcap/CAL/energyVsHitTiming
+                # - ECALEndcap/CAL/hitTiming
+        legTitle:
+                - "ECAL Endcap"
+        drawOption: "HIST"
+        xAxisRange:
+                - 0.0
+                - 410
+
+overlay_energyVsHitTime_zoom:
+# overlay_hitTiming:
+        yAxisLabel: "RAW Energy [1 / 1 ns]"
+        histName:
+                - ECALEndcap/CAL/energyVsHitTiming
+                # - ECALEndcap/CAL/hitTiming
+        legTitle:
+                - "ECAL Endcap"
+        drawOption: "HIST"
+        xAxisRange:
+                - 0.0
+                - 45

@@ -1,0 +1,30 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/build_20jun2019/PhotonECAL/
+        yAxisTitleOffset: 0.95
+        savePictDir: "photonRes_21jun2019"
+        histName: 
+            - Graph
+        yAxisRange:
+            - 1.0 
+            - 9.0
+        legPos:
+            - 0.6
+            - 0.76
+            - 0.8
+            - 0.9
+        markerSize: 1.2
+        drawOption: AP
+        sameDrawOption: P
+        markerStyle:
+                - 20
+                - 21
+        yAxisLabel: "#sigma_{#gamma}/E_{#gamma} [%]"
+        xAxisLabel: "Energy [GeV]"
+
+photonRes_ecal40_ecal30:
+        fileName:
+            - old/SinglePart_gamm/eventHists_noConv_Photon.root
+            - eventHists_noConv_Photon.root
+        legTitle:
+            - "40 layers"
+            - "30 layers"

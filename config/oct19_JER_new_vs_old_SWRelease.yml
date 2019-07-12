@@ -1,0 +1,27 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legPos:
+                - 0.2
+                - 0.6
+                - 0.9
+                - 0.9
+        yAxisTitleOffset: 0.95
+        savePictDir: "oct19_JER_old_vs_new_SWRelease"
+
+JER_RMS90_w_wo_Overlay_vsTiming_91_2gev:
+        legTitle:
+            - "91.2 GeV, SW 2018-10-11"
+            - "91.2 GeV, SW 2018-04-26"
+            - "365 GeV, SW 2018-10-11"
+            - "365 GeV, SW 2018-04-26"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 11.0

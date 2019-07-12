@@ -1,0 +1,65 @@
+default:
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/
+    legPos:
+        - 0.2
+        - 0.68
+        - 0.8
+        - 0.82
+    yAxisTitleOffset: 0.95
+    # textLabel:
+    #     pos:
+    #     - 0.565
+    #     - 0.9
+    #     title: "VLC11 Jets"
+    savePictDir: "JER_fitting"
+    legTitle:
+        - "#approx 45.6 GeV Jets"
+        - "#approx 182.5 GeV Jets"
+    yAxisRange:
+        - 0.1
+        - 850
+    xAxisRange:
+        - 0.5
+        - 1.5
+          
+
+JER_RMS90_91_vs_365GeV:
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+    histName: 
+        - jetClustering/fPFA_0
+    fileName:
+        # - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_180bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_180bins.root
+    markerStyle:
+        - 1
+        - 1
+    logY: True
+    tf1: # /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/91GeV_400ns_st2/hist_0.txt
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "489.540    1.009    0.038    1.302    4.265    1.000    5.944"
+    tf2: # /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/365GeV_400ns_st2/hist_0.txt
+        func: "dscb"
+        range:
+            - 0.5
+            - 1.5
+        parameters: "541.466    1.007    0.034    1.000    9.486    1.177    5.246"
+
+# JER_RMS90_91_vs_365GeV_hist0:
+#     dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+#     histName:
+#         - jetClustering/fPFA_0
+#     fileName:
+#         - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_180bins.root
+#     markerStyle:
+#         - 1
+#         - 1
+#     logY: True
+#     tf1: # /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/91GeV_400ns_st2/hist_0.txt
+#         func: "dscb"
+#         range:
+#             - 0.5
+#             - 1.5
+#         parameters: "489.540    1.009    0.038    1.302    4.265    1.000    5.944"

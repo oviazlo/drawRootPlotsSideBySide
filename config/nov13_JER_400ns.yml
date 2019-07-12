@@ -1,0 +1,111 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legPos:
+                - 0.2
+                - 0.76
+                - 0.8
+                - 0.9
+        yAxisTitleOffset: 0.95
+        savePictDir: "JER_400ns"
+        # textLabel:
+        #     pos:
+        #         - 0.9
+        #         - 1.02
+        #     title: CLD
+        legTitle:
+            - "10 ns, no BG"
+            - "400 ns, no BG"
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 8.0
+
+JER_RMS90_DR11_no_Overlay_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_run1_files/DR11_hists.root
+
+JER_RMS90_DR11_no_Overlay_91_2gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_run1_files/DR11_hists.root
+
+JER_RMS90_DR11_no_Overlay_91_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_run2_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_run1_files/DR11_hists.root
+        legTitle:
+            - "365 GeV, 10 ns"
+            - "365 GeV, 400 ns"
+            - "91.2 GeV, 10 ns"
+            - "91.2 GeV, 400 ns"
+
+JER_RMS90_DR11_BG_vs_noBg_91_2gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_hists.root
+        legTitle:
+            - "91.2 GeV, 400 ns, no BG"
+            - "91.2 GeV, 400 ns, BG"
+
+JER_RMS90_totalE_BG_vs_noBg_91_2gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_run1_files/totalE_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/totalE_hists.root
+        legPos:
+                - 0.2
+                - 0.76
+                - 0.4
+                - 0.9
+        legTitle:
+            - "no BG"
+            - "with BG"
+        histName: 
+            - totalEnergy/ResVsCosTheta
+        textLabel1:
+            pos:
+                - 0.75
+                - 0.9
+            title: "91.2 GeV" 
+        textLabel2:
+            pos:
+                - 0.75
+                - 0.8 
+            title: "400 ns" 
+
+JER_RMS90_DR11_BG_vs_noBg_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_hists.root
+        legTitle:
+            - "365 GeV, 400 ns, no BG"
+            - "365 GeV, 400 ns, BG"
+
+JER_RMS90_totalE_BG_vs_noBg_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_run1_files/totalE_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/totalE_hists.root
+        legTitle:
+            - "365 GeV, 400 ns, no BG"
+            - "365 GeV, 400 ns, BG"
+        histName: 
+            - totalEnergy/ResVsCosTheta
+
+nPFOs_totalE_BG_vs_noBg_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_run1_files/totalE_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/totalE_hists.root
+        legTitle:
+            - "365 GeV, 400 ns, no BG"
+            - "365 GeV, 400 ns, BG"
+        histName: 
+            - totalEnergy/hist_nPfosTotal
+        yAxisRange:
+            - 0.0 
+            - 550.0
+        yAxisLabel: Counts
+        xAxisLabel: nPFOs
+

@@ -1,0 +1,49 @@
+default:
+        drawOption: ALP
+        sameDrawOption: LP
+        # sortXaxisInGraph: True
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/FCCee_o1_v03/trackerTiming/
+        # lineWidth: 0
+        canPos:
+                - 0
+                - 0
+                - 800
+                - 800
+        xAxisLabel: "Energy [GeV]"
+        # yAxisTitleOffset: 0.9
+        # yAxisRange:
+        #         - 0.0
+        #         - 8.0
+        markerSize: 1.6
+        fileName:
+                - graphs_theta90.root
+        gridX: 1
+        gridY: 1
+        legPos:
+                - 0.5
+                - 0.7
+                - 0.85
+                - 0.9
+        yAxisLabel: "(t_{K}-t_{#pi})/#sigma"
+
+timing_significant:
+        histName: 
+                - ratioGr_20
+                - ratioGr_10
+                - ratioGr_5
+        legTitle:
+                - "#sigma = 20 ps"
+                - "#sigma = 10 ps"
+                - "#sigma = 5 ps"
+        logY:   True
+        yAxisTitleOffset: 0.97
+
+timing_kaon_vs_pions:
+        yAxisLabel: "Outermost Hit Time [ps]"
+        histName: 
+                - directGr_kaons
+                - directGr_pions
+        legTitle:
+                - "Kaons"
+                - "Pions"
+

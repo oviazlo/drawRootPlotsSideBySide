@@ -1,0 +1,81 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legPos:
+                - 0.2
+                - 0.6
+                - 0.8
+                - 0.9
+        yAxisTitleOffset: 0.95
+        savePictDir: "sep10_JER"
+
+fractionOfTotalEnergy_vs_dR_91_2GeV:
+        legTitle:
+            - "91.2 GeV: dR = 1.1"
+            - "91.2 GeV: dR = 0.9"
+            - "91.2 GeV: dR = 0.7"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR09_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR07_hists.root
+        histName: 
+                - jetClustering/hist_energyFraction_recoJets
+        legCaptionMode: mean
+        yAxisLabel: "Counts"
+        xAxisLabel: "(E_{1}+E_{2})/E_{total}"
+        yAxisTitleOffset: 1.15
+                  
+fractionOfTotalEnergy_vs_dR_365GeV:
+        legTitle:
+            - "365 GeV: dR = 1.1"
+            - "365 GeV: dR = 0.9"
+            - "365 GeV: dR = 0.7"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR09_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR07_hists.root
+        histName: 
+                - jetClustering/hist_energyFraction_recoJets
+        legCaptionMode: mean
+        yAxisLabel: "Counts"
+        xAxisLabel: "(E_{1}+E_{2})/E_{total}"
+        yAxisTitleOffset: 1.15
+
+JER_91_2_RMS90_jetClustering_vs_DR_v2:
+        legTitle:
+            # - "91.2 GeV: RMS90, dR = 0.7"
+            - "91.2 GeV: RMS90, dR = 1.1"
+            - "91.2 GeV: RMS90, total energy"
+            # - "91.2 GeV: RMS90, dR = 0.7, (E_{1} + E_{2})/E_{tot} > 95%"
+            # - "91.2 GeV: RMS90, dR = 1.1, (E_{1} + E_{2})/E_{tot} > 95%"
+        fileName:
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR07_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR07_95percent_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_95percent_hists.root
+        histName: 
+                - jetClustering/ResVsCosTheta
+                - totalEnergy/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 8.0
+
+JER_365_RMS90_jetClustering_vs_DR:
+        legTitle:
+            - "365 GeV: RMS90, dR = 0.7"
+            # - "365 GeV: RMS90, dR = 1.1"
+            - "365 GeV: RMS90, total energy"
+            # - "365 GeV: RMS90, dR = 0.7, (E_{1} + E_{2})/E_{tot} > 95%"
+            # - "365 GeV: RMS90, dR = 1.1, (E_{1} + E_{2})/E_{tot} > 95%"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR07_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR07_95percent_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_95percent_hists.root
+        histName: 
+                - jetClustering/ResVsCosTheta
+                - totalEnergy/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0
+            - 8.0

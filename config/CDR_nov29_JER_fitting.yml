@@ -1,0 +1,46 @@
+default:
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/
+    legPos:
+        - 0.2
+        - 0.68
+        - 0.8
+        - 0.82
+    yAxisTitleOffset: 0.95
+    # textLabel:
+    #     pos:
+    #     - 0.9
+    #     - 1.02
+    #     title: CLD
+    textLabel:
+        pos:
+        - 0.065
+        - 0.9 
+        title: "VLC11 Jets" 
+    yAxisRange:
+        - 2 
+        - 10
+    savePictDir: "JER_fitting"
+    legTitle:
+        - "#approx 45.6 GeV Jets"
+        - "#approx 182.5 GeV Jets"
+    yAxisTitleSize: 0.055
+    yAxisTitleOffset: 1.1
+    xAxisTitleSize: 0.055
+    xAxisTitleOffset: 1.2
+
+JER_fitting_91_vs_365GeV:
+    histName: 
+        - "hist: resolution" 
+    fileName:
+        - 91GeV_400ns_st2/hists.root
+        - 365GeV_400ns_st2/hists.root
+    yAxisLabel: "#sigma(E_{j}^{R}/E_{j}^{G}) [%]"
+
+JER_RMS90_91_vs_365GeV:
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+    histName: 
+        - jetClustering/ResVsCosTheta
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_180bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_180bins.root
+    yAxisLabel: "RMS_{90}(E_{j}^{R}/E_{j}^{G})/Mean_{90}(E_{j}^{R}/E_{j}^{G}) [%]"

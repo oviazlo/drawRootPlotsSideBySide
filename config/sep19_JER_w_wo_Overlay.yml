@@ -1,0 +1,93 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legPos:
+                - 0.2
+                - 0.6
+                - 0.9
+                - 0.9
+        yAxisTitleOffset: 0.95
+        savePictDir: "sep19_JER_w_wo_Overlay"
+
+JER_RMS90_w_wo_Overlay_vsTiming_91_2gev:
+        legTitle:
+            - "91.2 GeV, RMS90, total energy, 10 ns"
+            - "91.2 GeV, RMS90, total energy, 400 ns"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR09_hists.root
+                - 00011024/DR09_hists.root
+        histName: 
+                - totalEnergy/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 9.0
+
+JER_RMS90_w_wo_Overlay_vsTiming_365gev:
+        legTitle:
+            - "365 GeV, RMS90, total energy, 10 ns"
+            - "365 GeV, RMS90, total energy, 400 ns"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR09_hists.root
+                - 00011028/DR09_hists.root
+        histName: 
+                - totalEnergy/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 9.0
+
+JER_RMS90_totalEnergy_w_wo_Overlay_91_2gev:
+        legTitle:
+            - "91.2 GeV, RMS90, total energy, 400 ns, no BG"
+            - "91.2 GeV, RMS90, total energy, 400 ns, w BG"
+        fileName:
+                - 00011024/DR09_hists.root
+                - 00011025/DR09_hists.root
+        histName: 
+                - totalEnergy/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 9.0
+
+JER_RMS90_totalEnergy_w_wo_Overlay_365gev:
+        legTitle:
+            - "365 GeV, RMS90, total energy, 400 ns, no BG"
+            - "365 GeV, RMS90, total energy, 400 ns, w BG"
+        fileName:
+                - 00011028/DR09_hists.root
+                - 00011029/DR09_hists.root
+        histName: 
+                - totalEnergy/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 9.0
+
+JER_RMS90_jetClustering_w_wo_Overlay_91_2gev:
+        legTitle:
+            - "91.2 GeV, RMS90, dR=0.9, 400 ns, no BG"
+            - "91.2 GeV, RMS90, dR=0.9, 400 ns, w BG"
+        fileName:
+                - 00011024/DR09_hists.root
+                - 00011025/DR09_hists.root
+        histName: 
+                - jetClustering/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 9.0
+
+JER_RMS90_jetClustering_w_wo_Overlay_365gev:
+        legTitle:
+            - "365 GeV, RMS90, dR=0.9, 400 ns, no BG"
+            - "365 GeV, RMS90, dR=0.9, 400 ns, w BG"
+        fileName:
+                - 00011028/DR09_hists.root
+                - 00011029/DR09_hists.root
+        histName: 
+                - jetClustering/ResVsCosTheta
+        skipMissingHists: 1
+        yAxisRange:
+            - 3.0 
+            - 9.0

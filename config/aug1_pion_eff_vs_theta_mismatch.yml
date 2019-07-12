@@ -1,0 +1,56 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/
+        legTitle:
+                - "nominal efficiency"
+                - "type mismatch"
+                - "mismatch an neutral particle"
+                - "mismatch as muon"
+                - "mismatch as electron"
+        histName: 
+                - eventHists/efficiencyVsCosTheta
+                - eventHists/efficiencyVsCosThetaFailType/all
+                - eventHists/efficiencyVsCosThetaFailType/noChargedParts
+                - eventHists/efficiencyVsCosThetaFailType/onlyMuon
+                - eventHists/efficiencyVsCosThetaFailType/onlyElectron
+        legPos:
+                - 0.3
+                - 0.4
+                - 0.68
+                - 0.6
+        # histColor:
+        #         - 1
+        #         - 2
+        #         - 3
+        #         - 4
+        #         - 5
+        #         - 6
+        #         - 7
+        #         - 8
+        # xAxisRange:
+        #         - 0
+        #         - 120
+        yAxisRange:
+                - 0.0
+                - 0.079
+        # legCaptionMode: entries
+        # logY: 1
+        rebinFactor: 30
+        scaleFactor: 0.033333333
+        drawOption: HIST
+        yAxisLabel: Efficiency
+        markerStyle:
+                - 0
+                - 0
+                - 0
+                - 0
+                - 0
+
+pion_eff_vs_theta_E5:
+        fileName:
+                - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E5_Theta9_171.root
+        histTitle: "E_{pi}=5 GeV"
+
+pion_eff_vs_theta_E20:
+        fileName:
+                - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E20_Theta9_171.root
+        histTitle: "E_{pi}=20 GeV"

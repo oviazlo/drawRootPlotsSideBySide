@@ -1,0 +1,58 @@
+default:
+        drawOption: P
+        sameDrawOption: LP
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/FCCee_o1_v03/bbbar/
+        canPos:
+                - 0
+                - 0
+                - 800
+                - 800
+        # yAxisTitleOffset: 0.9
+        yAxisRange:
+                - 0.0
+                - 1.0
+        # markerSize: 1.6
+        fileName:
+                - muonRecoMisID.root
+                # - muonRecoMisID_CLIC_bbbar3TeV.root
+        # gridX: 1
+        # gridY: 1
+        # legPos:
+        #         - 0.5
+        #         - 0.7
+        #         - 0.85
+        #         - 0.9
+        # legTitle:
+        #         - nominal cuts
+                # - relaxed cuts
+        yAxisLabel: "Efficiency"
+
+muonEff_bbar_vs_E:
+        histName: 
+                - muonEffInJets/eff_truthPartMatched/E
+
+muonEff_bbar_vs_vertexR:
+        histName: 
+                - muonEffInJets/eff_truthPartMatched/vertexR
+        rebinFactor: 2
+        scaleFactor: 0.5
+        xAxisLabel: "Vertex R [mm]"
+        
+muonEff_bbar_vs_vertexZ:
+        histName: 
+                - muonEffInJets/eff_truthPartMatched/vertexZ
+        rebinFactor: 2
+        scaleFactor: 0.5
+        xAxisLabel: "Vertex Z [mm]"
+
+muonEff_bbar_vs_cosTheta:
+        histName: 
+                - muonEffInJets/eff_truthPartMatched/cosTheta
+        rebinFactor: 4
+        scaleFactor: 0.25
+                  
+muonEff_bbar_vs_phi:
+        histName: 
+                - muonEffInJets/eff_truthPartMatched/phi
+        rebinFactor: 4
+        scaleFactor: 0.25

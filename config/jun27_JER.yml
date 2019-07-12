@@ -1,0 +1,33 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.58
+                - 0.9
+        yAxisRange:
+                - 2.5
+                - 8
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+
+
+JER_SWC_2-100_vs_2-200_91.2GeV:
+        legTitle:
+                - "2-200 GeV"
+                - "2-100 GeV"
+        histName: 
+                - ResVsCosTheta
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-05-18_gcc62_zuds91.2_E365_ConformalTr_defaultSetting_jun26_files/hists.root
+                - FCCee_o1_v03_ILCSoft-2018-05-18_gcc62_zuds91.2_SWC2-100_E365_ConformalTr_defaultSetting_jun26_files/hists.root
+
+JER_SWC_2-100_vs_2-200_365GeV:
+        legTitle:
+                - "2-200 GeV"
+                - "2-100 GeV"
+        histName: 
+                - ResVsCosTheta
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-05-18_gcc62_zuds365_E365_ConformalTr_defaultSetting_jun26_files/hists.root
+                - FCCee_o1_v03_ILCSoft-2018-05-18_gcc62_zuds365_SWC2-100_E365_ConformalTr_defaultSetting_jun26_files/hists.root

@@ -1,0 +1,44 @@
+default:
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        yAxisRange:
+                - 4 
+                - 8
+        yAxisTitleOffset: 0.95
+        skipMissingHists: 1
+        histName: 
+                - totalEnergy/ResVsCosTheta
+                - jetClustering/ResVsCosTheta
+        savePictDir: jetClusteringFitVsBinning
+
+JER_91_2_RMS90_totalEnergyVsJetClusteringVsRCone:
+        legTitle:
+                - "RMS_{90}, total energy"
+                - "RMS_{90}, dR=0.7"
+                # - "RMS_{90}, dR=0.9"
+                - "RMS_{90}, dR=1.1"
+        fileName:
+                - totalEnergy_90bins.root
+                - DR07_90bins.root
+                # - DR09_90bins.root
+                - DR11_90bins.root
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+
+JER_365_RMS90_totalEnergyVsJetClusteringVsRCone:
+        legTitle:
+                - "RMS_{90}, total energy"
+                - "RMS_{90}, dR=0.7"
+                # - "RMS_{90}, dR=0.9"
+                # - "RMS_{90}, dR=1.1"
+        fileName:
+                - totalEnergy_90bins.root
+                - DR07_90bins.root
+                # - DR09_90bins.root
+                # - DR11_90bins.root
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        yAxisRange:
+                - 2 
+                - 6

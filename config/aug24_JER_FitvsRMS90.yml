@@ -1,0 +1,173 @@
+default:
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.58
+                - 0.9
+        yAxisRange:
+                - 2.5
+                - 8
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        histName: 
+                - totalEnergy/ResVsCosTheta
+        fileName:
+        #         - DR07_hists.root
+        # savePictDir: dR07/
+                - DR09_hists.root
+        savePictDir: dR09/
+        #         - DR11_hists.root
+        # savePictDir: dR11/
+
+JER_91_2_RMS90_vs_GaussSigma_totalEnergy:
+        legTitle:
+                - "RMS90: 45.6 GeV Jets"
+                - "Gauss 2*Sigma: 45.6 GeV Jets"
+                - "CrystalBall: 45.6 GeV Jets"
+                - "2sCrystalBall: 45.6 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/ResVsCosTheta
+                - totalEnergy/Gaus2SigmaResVsCosTheta
+                - totalEnergy/CrystalBallSigmaResVsCosTheta
+                - totalEnergy/2SCrystalBallSigmaResVsCosTheta
+        # skipMissingHists: 1
+                  
+JER_365_RMS90_vs_GaussSigma_totalEnergy:
+        legTitle:
+                - "RMS90: 182.5 GeV Jets"
+                - "Gauss 2*Sigma: 182.5 GeV Jets"
+                - "CrystalBall: 182.5 GeV Jets"
+                - "2sCrystalBall: 182.5 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/ResVsCosTheta
+                - totalEnergy/Gaus2SigmaResVsCosTheta
+                - totalEnergy/CrystalBallSigmaResVsCosTheta
+                - totalEnergy/2SCrystalBallSigmaResVsCosTheta
+        # skipMissingHists: 1
+
+chi2_91_2_RMS90_vs_GaussSigma_totalEnergy:
+        legTitle:
+                - "Gauss 2*Sigma: 45.6 GeV Jets"
+                - "CrystalBall: 45.6 GeV Jets"
+                - "2sCrystalBall: 45.6 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/Gaus2SigmaChi2ResVsCosTheta
+                - totalEnergy/CrystalBallSigmaChi2ResVsCosTheta
+                - totalEnergy/2SCrystalBallSigmaChi2ResVsCosTheta
+        # skipMissingHists: 1
+        yAxisRange:
+                - 0 
+                - 9
+                  
+chi2_365_RMS90_vs_GaussSigma_totalEnergy:
+        legTitle:
+                - "Gauss 2*Sigma: 182.5 GeV Jets"
+                - "CrystalBall: 182.5 GeV Jets"
+                - "2sCrystalBall: 182.5 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/Gaus2SigmaChi2ResVsCosTheta
+                - totalEnergy/CrystalBallSigmaChi2ResVsCosTheta
+                - totalEnergy/2SCrystalBallSigmaChi2ResVsCosTheta
+        # skipMissingHists: 1
+        yAxisRange:
+                - 0 
+                - 9
+
+JER_91_2_RMS90_vs_GaussSigma_jetClustering:
+        legTitle:
+                - "RMS90: 45.6 GeV Jets"
+                - "Gauss 2*Sigma: 45.6 GeV Jets"
+                - "CrystalBall: 45.6 GeV Jets"
+                - "2sCrystalBall: 45.6 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - jetClustering/ResVsCosTheta
+                - jetClustering/Gaus2SigmaResVsCosTheta
+                - jetClustering/CrystalBallSigmaResVsCosTheta
+                - jetClustering/2SCrystalBallSigmaResVsCosTheta
+        # skipMissingHists: 1
+                  
+JER_365_RMS90_vs_GaussSigma_jetClustering:
+        legTitle:
+                - "RMS90: 182.5 GeV Jets"
+                - "Gauss 2*Sigma: 182.5 GeV Jets"
+                - "CrystalBall: 182.5 GeV Jets"
+                - "2sCrystalBall: 182.5 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - jetClustering/ResVsCosTheta
+                - jetClustering/Gaus2SigmaResVsCosTheta
+                - jetClustering/CrystalBallSigmaResVsCosTheta
+                - jetClustering/2SCrystalBallSigmaResVsCosTheta
+        # skipMissingHists: 1
+
+chi2_91_2_RMS90_vs_GaussSigma_jetClustering:
+        legTitle:
+                - "Gauss 2*Sigma: 45.6 GeV Jets"
+                - "CrystalBall: 45.6 GeV Jets"
+                - "2sCrystalBall: 45.6 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - jetClustering/Gaus2SigmaChi2ResVsCosTheta
+                - jetClustering/CrystalBallSigmaChi2ResVsCosTheta
+                - jetClustering/2SCrystalBallSigmaChi2ResVsCosTheta
+        # skipMissingHists: 1
+        yAxisRange:
+                - 0 
+                - 9
+                  
+chi2_365_RMS90_vs_GaussSigma_jetClustering:
+        legTitle:
+                - "Gauss 2*Sigma: 182.5 GeV Jets"
+                - "CrystalBall: 182.5 GeV Jets"
+                - "2sCrystalBall: 182.5 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - jetClustering/Gaus2SigmaChi2ResVsCosTheta
+                - jetClustering/CrystalBallSigmaChi2ResVsCosTheta
+                - jetClustering/2SCrystalBallSigmaChi2ResVsCosTheta
+        # skipMissingHists: 1
+        yAxisRange:
+                - 0 
+                - 9
+
+
+JER_365_RMS90_jetClustering_vs_totalEnergy:
+        legTitle:
+                - "RMS90, total energy: 182.5 GeV Jets"
+                - "RMS90, jet clustering: 182.5 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/ResVsCosTheta
+                - jetClustering/ResVsCosTheta
+
+JER_91_2_RMS90_jetClustering_vs_totalEnergy:
+        legTitle:
+                - "RMS90, total energy: 45.6 GeV Jets"
+                - "RMS90, jet clustering: 45.6 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/ResVsCosTheta
+                - jetClustering/ResVsCosTheta
+
+JER_365_2sCB_jetClustering_vs_totalEnergy:
+        legTitle:
+                - "2sCB, total energy: 182.5 GeV Jets"
+                - "2sCB, jet clustering: 182.5 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/2SCrystalBallSigmaResVsCosTheta
+                - jetClustering/2SCrystalBallSigmaResVsCosTheta
+
+JER_91_2_2sCB_jetClustering_vs_totalEnergy:
+        legTitle:
+                - "2sCB, total energy: 45.6 GeV Jets"
+                - "2sCB, jet clustering: 45.6 GeV Jets"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/2SCrystalBallSigmaResVsCosTheta
+                - jetClustering/2SCrystalBallSigmaResVsCosTheta

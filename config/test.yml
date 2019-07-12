@@ -1,0 +1,62 @@
+default:
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: jetAngularAndEnergyRes_DR11
+        # yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        # legCaptionMode: "RMS"
+        # normalize: True
+        # logY: True
+        # drawOption: "HIST"
+        # xAxisRange:
+        #     - -5
+        #     - 5
+        legTitle:
+                - "#sqrt{s} = 91.2 GeV"
+                - "#sqrt{s} = 365 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+
+thetaRes_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/thetaRes
+        yAxisRange:
+            - 0.0
+            - 0.6
+        legPos:
+                - 0.2
+                - 0.2
+                - 0.78
+                - 0.35
+        yAxisLabel: "RMS_{90}#Delta#theta(j_{R},j_{G}) [#circ]"
+        yAxisTitleSize: 0.06
+        yAxisTitleOffset: 1.35
+        textLabel1:
+            pos:
+                - 0.05
+                - 1.03
+            title: CLD
+        textLabel2:
+            pos:
+                - 0.17
+                - 1.03
+            title: "Preliminary"
+        latexLabel1:
+            pos:
+                - 0.57
+                - 1.03
+            title: "#theta"
+        latexLabel2:
+            pos:
+                - 0.77
+                - 1.03
+            title: "#phi"
+            TextSize: 0.045
+
+

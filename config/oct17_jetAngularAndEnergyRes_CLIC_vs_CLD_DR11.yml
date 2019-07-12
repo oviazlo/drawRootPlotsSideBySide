@@ -1,0 +1,57 @@
+default:
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: jetAngularAndEnergyRes_DR11
+        # yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        # legCaptionMode: "RMS"
+        # normalize: True
+        # logY: True
+        # drawOption: "HIST"
+        # xAxisRange:
+        #     - -5
+        #     - 5
+        legTitle:
+                - "CLD, 91.2 GeV, #Delta R = 1.1"
+                - "CLIC, 91 GeV, #Delta R = 1.1"
+                - "CLD, 365 GeV, #Delta R = 1.1"
+                - "CLIC, 380 GeV, #Delta R = 1.1"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E91_ConformalTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E380_ConformalTr_run1_files/DR11_hists.root
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+
+thetaRes_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/thetaRes
+        yAxisRange:
+            - 0.0
+            - 0.6
+        legPos:
+                - 0.2
+                - 0.2
+                - 0.78
+                - 0.4
+        yAxisLabel: "#Delta#theta [#circ]"
+
+phiRes_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/phiRes
+        yAxisRange:
+            - 0.0
+            - 1.9
+        yAxisLabel: "#Delta#phi [#circ]"
+
+JER_DR11_FCCee_vs_CLIC_vsCosTheta:
+        histName: 
+                - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 0.0
+            - 10.0 
+

@@ -1,0 +1,190 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/ 
+        # legTitle:
+                # - "conformal"
+                # - "truth"
+                # - CLD
+        histName: 
+                - eventHists/efficiencyVsTheta
+        legPos:
+                - 0.4
+                - 0.2
+                - 0.75
+                - 0.42
+        # xAxisRange:
+        #         - 0
+        #         - 120
+        yAxisRange:
+                - 0.5
+                - 1.01
+        # drawOption: HIST
+        # sameDrawOption: HIST
+        xAxisLabel: "#theta [deg]"
+        yAxisLabel: "Efficiency"
+        # histColor:
+        #         - 2
+        # rebinFactor: 10
+        # scaleFactor: 0.1
+        markerSize: 0.1
+        drawOption: "AP"
+        sameDrawOption: "P"
+#
+# jun22_pions_eff_vs_theta:
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E5_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E10_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E20_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E50_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E100_Theta9_171.root
+#         legTitle:
+#                 - "E: 5 GeV"
+#                 # - "E: 10 GeV"
+#                 - "E: 20 GeV"
+#                 # - "E: 50 GeV"
+#                 - "E: 100 GeV"
+#
+jun22_pions_eff_vs_cosTheta_v2:
+        xAxisLabel: "cos(#theta)"
+        histName: 
+                - eventHists/tEff/efficiencyVsCosTheta
+        fileName:
+                - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E5_Theta9_171.root
+                # - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E10_Theta9_171.root
+                - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E20_Theta9_171.root
+                # - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E50_Theta9_171.root
+                - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E100_Theta9_171.root
+        legTitle:
+                - "E: 5 GeV"
+                # - "E: 10 GeV"
+                - "E: 20 GeV"
+                # - "E: 50 GeV"
+                - "E: 100 GeV"
+        additionalLabel: "Single #pi^{-}" 
+#
+# jun22_muons_eff_vs_theta:
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E10_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E20_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E50_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E100_Theta9_171.root
+#         legTitle:
+#                 - "E: 10 GeV"
+#                 # - "E: 20 GeV"
+#                 - "E: 50 GeV"
+#                 - "E: 100 GeV"
+#
+jun22_muons_eff_vs_cosTheta_v2:
+        xAxisLabel: "cos(#theta)"
+        histName:
+                - eventHists/tEff/efficiencyVsCosTheta
+        fileName:
+                - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E10_Theta9_171.root
+                # - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E20_Theta9_171.root
+                - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E50_Theta9_171.root
+                - FCCee_o1_v03/muonAlgCutOptimization/muons/particleGun_E100_Theta9_171.root
+        legTitle:
+                - "E: 10 GeV"
+                # - "E: 20 GeV"
+                - "E: 50 GeV"
+                - "E: 100 GeV"
+        additionalLabel: "Single #mu^{-}" 
+
+# jun22_photons_eff_vs_theta:
+#         histName:
+#                 - eventHists_photonRecl/efficiencyVsTheta
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E5_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E10_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E20_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E50_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E100_Theta9_171.root
+#         legTitle:
+#                 - "E: 5 GeV"
+#                 # - "E: 10 GeV"
+#                 - "E: 20 GeV"
+#                 # - "E: 50 GeV"
+#                 - "E: 100 GeV"
+#
+# jun22_photons_eff_vs_cosTheta:
+#         xAxisLabel: "cos(#theta)"
+#         histName:
+#                 - eventHists_photonRecl/efficiencyVsCosTheta
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E5_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E10_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E20_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E50_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E100_Theta9_171.root
+#         legTitle:
+#                 - "E: 5 GeV"
+#                 # - "E: 10 GeV"
+#                 - "E: 20 GeV"
+#                 # - "E: 50 GeV"
+#                 - "E: 100 GeV"
+#
+# jun22_electrons_eff_vs_theta:
+#         histName:
+#                 - eventHists_photonRecl_useCaloForMergedCandidates/efficiencyVsTheta
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E5_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E10_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E20_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E50_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E100_Theta9_171.root
+#         legTitle:
+#                 - "E: 5 GeV"
+#                 # - "E: 10 GeV"
+#                 - "E: 20 GeV"
+#                 # - "E: 50 GeV"
+#                 - "E: 100 GeV"
+#
+jun22_electrons_eff_vs_cosTheta_v2:
+        xAxisLabel: "cos(#theta)"
+        histName:
+                - eventHists_photonRecl_useCaloForMergedCandidates/tEff/efficiencyVsCosTheta
+        fileName:
+                - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E5_Theta9_171.root
+                # - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E10_Theta9_171.root
+                - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E20_Theta9_171.root
+                # - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E50_Theta9_171.root
+                - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/particleGun_E100_Theta9_171.root
+        legTitle:
+                - "E: 5 GeV"
+                # - "E: 10 GeV"
+                - "E: 20 GeV"
+                # - "E: 50 GeV"
+                - "E: 100 GeV"
+        additionalLabel: "Single e^{-}" 
+
+# jun22_photons_noConv_eff_vs_theta:
+#         histName:
+#                 - eventHists_noConv/efficiencyVsTheta
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E5_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E10_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E20_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E50_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E100_Theta9_171.root
+#         legTitle:
+#                 - "E: 5 GeV"
+#                 # - "E: 10 GeV"
+#                 - "E: 20 GeV"
+#                 # - "E: 50 GeV"
+#                 - "E: 100 GeV"
+#
+# jun22_photons_noConv_eff_vs_cosTheta:
+#         xAxisLabel: "cos(#theta)"
+#         histName:
+#                 - eventHists_noConv/efficiencyVsCosTheta
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E5_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E10_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E20_Theta9_171.root
+#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E50_Theta9_171.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/particleGun_E100_Theta9_171.root
+#         legTitle:
+#                 - "E: 5 GeV"
+#                 # - "E: 10 GeV"
+#                 - "E: 20 GeV"
+#                 # - "E: 50 GeV"
+#                 - "E: 100 GeV"

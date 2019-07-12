@@ -1,0 +1,135 @@
+default:
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: jetAngularRes_debug3
+        # yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        # legCaptionMode: "RMS"
+        # normalize: True
+        # logY: True
+        # drawOption: "HIST"
+        # xAxisRange:
+        #     - -5
+        #     - 5
+        yAxisLabel: "Angular resolution [#circ]"
+        histName: 
+                - jetClustering/thetaRes
+                - jetClustering/phiRes
+        yAxisRange:
+                - 0.2
+                - 1.5
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+
+# angularRes_DR11_91_2_vsCosTheta_4T:
+#         legTitle:
+#                 - "#Delta#theta, 4 Tesla, 91.2 GeV"
+#                 - "#Delta#phi, 4 Tesla, 91.2 GeV"
+#                 # - "#Delta#theta, 2 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 2 Tesla, 91.2 GeV"
+#                 # - "#Delta#theta, 0.1 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 0.1 Tesla, 91.2 GeV"
+#         fileName:
+#                 - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+#                 # - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+
+        
+angularRes_DR11_365_vsCosTheta_4T:
+        legTitle:
+                - "#Delta#theta, 4 Tesla, 365 GeV"
+                - "#Delta#phi, 4 Tesla, 365 GeV"
+                # - "#Delta#theta, 2 Tesla, 365 GeV"
+                # - "#Delta#phi, 2 Tesla, 365 GeV"
+                # - "#Delta#theta, 0.1 Tesla, 365 GeV"
+                # - "#Delta#phi, 0.1 Tesla, 365 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+
+# angularRes_DR11_91_2_vsCosTheta_2T:
+#         legTitle:
+#                 # - "#Delta#theta, 4 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 4 Tesla, 91.2 GeV"
+#                 - "#Delta#theta, 2 Tesla, 91.2 GeV"
+#                 - "#Delta#phi, 2 Tesla, 91.2 GeV"
+#                 # - "#Delta#theta, 0.1 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 0.1 Tesla, 91.2 GeV"
+#         fileName:
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+#                 - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+#                 # - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+
+        
+angularRes_DR11_365_vsCosTheta_2T:
+        legTitle:
+                # - "#Delta#theta, 4 Tesla, 365 GeV"
+                # - "#Delta#phi, 4 Tesla, 365 GeV"
+                - "#Delta#theta, 2 Tesla, 365 GeV"
+                - "#Delta#phi, 2 Tesla, 365 GeV"
+                # - "#Delta#theta, 0.1 Tesla, 365 GeV"
+                # - "#Delta#phi, 0.1 Tesla, 365 GeV"
+        fileName:
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+
+
+# angularRes_DR11_91_2_vsCosTheta_0_5T:
+#         legTitle:
+#                 # - "#Delta#theta, 4 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 4 Tesla, 91.2 GeV"
+#                 # - "#Delta#theta, 2 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 2 Tesla, 91.2 GeV"
+#                 - "#Delta#theta, 0.5 Tesla, 91.2 GeV"
+#                 - "#Delta#phi, 0.5 Tesla, 91.2 GeV"
+#         fileName:
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+#                 - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_0_5Tesla_truthTr_run1_files/DR11_hists.root
+
+        
+angularRes_DR11_365_vsCosTheta_0_5T:
+        legTitle:
+                # - "#Delta#theta, 4 Tesla, 365 GeV"
+                # - "#Delta#phi, 4 Tesla, 365 GeV"
+                # - "#Delta#theta, 2 Tesla, 365 GeV"
+                # - "#Delta#phi, 2 Tesla, 365 GeV"
+                - "#Delta#theta, 0.5 Tesla, 365 GeV"
+                - "#Delta#phi, 0.5 Tesla, 365 GeV"
+        fileName:
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_0_5Tesla_truthTr_run1_files/DR11_hists.root
+
+
+# angularRes_DR11_91_2_vsCosTheta_0_1T:
+#         legTitle:
+#                 # - "#Delta#theta, 4 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 4 Tesla, 91.2 GeV"
+#                 # - "#Delta#theta, 2 Tesla, 91.2 GeV"
+#                 # - "#Delta#phi, 2 Tesla, 91.2 GeV"
+#                 - "#Delta#theta, 0.1 Tesla, 91.2 GeV"
+#                 - "#Delta#phi, 0.1 Tesla, 91.2 GeV"
+#         fileName:
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+#                 - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+#
+#
+# angularRes_DR11_365_vsCosTheta_0_1T:
+#         legTitle:
+#                 # - "#Delta#theta, 4 Tesla, 365 GeV"
+#                 # - "#Delta#phi, 4 Tesla, 365 GeV"
+#                 # - "#Delta#theta, 2 Tesla, 365 GeV"
+#                 # - "#Delta#phi, 2 Tesla, 365 GeV"
+#                 - "#Delta#theta, 0.1 Tesla, 365 GeV"
+#                 - "#Delta#phi, 0.1 Tesla, 365 GeV"
+#         fileName:
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+#                 # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+#                 - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root

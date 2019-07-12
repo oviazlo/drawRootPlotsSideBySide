@@ -1,0 +1,127 @@
+default:
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        yAxisRange:
+                - 0.75
+                - 8
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/2SCrystalBallSigmaResVsCosTheta
+                - totalEnergy/ResVsCosTheta
+                - totalEnergy/2SCrystalBall_LeftLimit_VsCosThetaHist
+                # - totalEnergy/2SCrystalBall_RightLimit_VsCosThetaHist
+                - totalEnergy/2SCrystalBall_GaussCoreWidth_VsCosThetaHist
+        savePictDir: jetClusteringFitVsBinning_E365_totalEnergy/
+        histNamePrefix: JER_365_RMS90_vs_Fit_
+        yAxisLabel: "Resolution [%]"
+
+90bins:
+        legTitle:
+                - "90 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_90bins.root
+
+105bins:
+        legTitle:
+                - "105 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_105bins.root
+
+120bins:
+        legTitle:
+                - "120 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_120bins.root
+
+135bins:
+        legTitle:
+                - "135 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_135bins.root
+
+150bins:
+        legTitle:
+                - "150 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_150bins.root
+
+165bins:
+        legTitle:
+                - "165 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_165bins.root
+
+180bins:
+        legTitle:
+                - "180 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_180bins.root
+
+195bins:
+        legTitle:
+                - "195 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_195bins.root
+
+210bins:
+        legTitle:
+                - "210 bins: #sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_210bins.root
+                  
+150bins_final:
+        legTitle:
+                - "#sigma_{fit}(E_{j})/Mean_{fit}(E_{j})"
+                - "RMS_{90}(E_{j})/Mean_{90}(E_{j})"
+                # - "a1"
+                # - "a2"
+                # - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_150bins.root
+        histName: 
+                - totalEnergy/2SCrystalBallSigmaResVsCosTheta
+                - totalEnergy/ResVsCosTheta
+                # - totalEnergy/2SCrystalBall_LeftLimit_VsCosThetaHist
+                # - totalEnergy/2SCrystalBall_RightLimit_VsCosThetaHist
+                # - totalEnergy/2SCrystalBall_GaussCoreWidth_VsCosThetaHist

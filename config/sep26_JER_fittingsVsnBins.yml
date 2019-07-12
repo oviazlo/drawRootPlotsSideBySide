@@ -1,0 +1,109 @@
+default:
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        yAxisRange:
+                - 0.75
+                - 8
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        histName: 
+                - totalEnergy/2SCrystalBallSigmaResVsCosTheta
+                - totalEnergy/ResVsCosTheta
+                - totalEnergy/2SCrystalBall_LeftLimit_VsCosThetaHist
+                # - totalnergy/2SCrystalBall_RightLimit_VsCosThetaHist
+                - totalEnergy/2SCrystalBall_GaussCoreWidth_VsCosThetaHist
+        savePictDir: totalEnergyFitVsBinning/
+
+JER_91_2_RMS90_90bins:
+        legTitle:
+                - "90 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_90bins.root
+
+JER_91_2_RMS90_105bins:
+        legTitle:
+                - "105 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_105bins.root
+
+JER_91_2_RMS90_120bins:
+        legTitle:
+                - "120 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_120bins.root
+
+JER_91_2_RMS90_135bins:
+        legTitle:
+                - "135 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_135bins.root
+
+JER_91_2_RMS90_150bins:
+        legTitle:
+                - "150 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_150bins.root
+
+JER_91_2_RMS90_165bins:
+        legTitle:
+                - "165 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_165bins.root
+
+JER_91_2_RMS90_180bins:
+        legTitle:
+                - "180 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_180bins.root
+
+JER_91_2_RMS90_195bins:
+        legTitle:
+                - "195 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_195bins.root
+
+JER_91_2_RMS90_210bins:
+        legTitle:
+                - "210 bins"
+                - "RMS90"
+                # - "a1"
+                - "a2"
+                - "(a1+a2)/2"
+        fileName:
+                - totalEnergy_210bins.root

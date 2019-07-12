@@ -1,0 +1,120 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.9
+                - 0.9
+        yAxisTitleOffset: 0.95
+        savePictDir: "JER_400ns_testCalibrations_v2"
+        textLabel:
+            pos:
+                - 0.9
+                - 1.02
+            title: CLD
+
+JER_RMS90_DR11_no_Overlay_noSWC_vs_withSWC_365gev_10ns:
+        legTitle:
+            - "10 ns, no SWC"
+            - "10 ns, SWC"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_noSWC_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 6.0
+
+JER_RMS90_DR11_no_Overlay_noSWC_vs_withSWC_365gev_400ns:
+        legTitle:
+            - "400ns, no SWC (recalib w/o SWC, nov 9)"
+            - "400ns, SWC (recalib w/o SWC, nov 9)"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_testCalibByNov9_noSW_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_testCalibByNov9_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 6.0
+
+JER_RMS90_DR11_no_Overlay_noSWC_vs_withSWC_91_1gev_10ns:
+        legTitle:
+            - "10 ns, no SWC"
+            - "10 ns, SWC"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_noSWC_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 4.0 
+            - 9.0
+
+JER_RMS90_DR11_no_Overlay_noSWC_vs_withSWC_91_1gev_400ns:
+        legTitle:
+            - "400ns, no SWC (recalib w/o SWC, nov 9)"
+            - "400ns, SWC (recalib w/o SWC, nov 9)"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_testCalibByNov9_noSW_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_testCalibByNov9_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 4.0 
+            - 9.0
+
+
+
+JER_RMS90_DR11_no_Overlay_noSWC_365gev_10ns_400ns:
+        legTitle:
+            - "10 ns, no SWC"
+            - "400ns, no SWC (recalib w/o SWC, nov 9)"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_noSWC_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_testCalibByNov9_noSW_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 6.0
+
+JER_RMS90_DR11_no_Overlay_withSWC_365gev_10ns_400ns:
+        legTitle:
+            - "10 ns, SWC"
+            - "400ns, SWC (recalib w/o SWC, nov 9)"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_testCalibByNov9_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 6.0
+
+JER_RMS90_DR11_no_Overlay_noSWC_91_1gev_10ns_400ns:
+        legTitle:
+            - "10 ns, no SWC"
+            - "400ns, no SWC (recalib w/o SWC, nov 9)"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_noSWC_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_testCalibByNov9_noSW_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 4.0 
+            - 9.0
+
+JER_RMS90_DR11_no_Overlay_withSWC_91_1gev_10ns_400ns:
+        legTitle:
+            - "10 ns, SWC"
+            - "400ns, SWC (recalib w/o SWC, nov 9)"
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_testCalibByNov9_run1_files/DR11_hists.root
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 4.0 
+            - 9.0

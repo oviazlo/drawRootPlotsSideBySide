@@ -1,0 +1,102 @@
+default:
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: jetAngularRes/
+        yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        legCaptionMode: "RMS"
+        normalize: True
+        logY: True
+        drawOption: "HIST"
+        xAxisRange:
+            - -5
+            - 5
+        yAxisRange:
+            - 0.00009
+            - 10.
+
+thetaRes_DR11_FCCee365_CLIC380_bin1:
+        legTitle:
+                - "CLD, 365 GeV"
+                - "CLIC, 380 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E380_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.000000-0.575000
+
+thetaRes_DR11_FCCee91_2_CLIC91_bin1:
+        legTitle:
+                - "CLD, 91.2 GeV"
+                - "CLIC, 91 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E91_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.000000-0.575000
+
+thetaRes_DR11_FCCee365_CLIC380_bin2:
+        legTitle:
+                - "CLD, 365 GeV"
+                - "CLIC, 380 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E380_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.575000-0.800000
+
+thetaRes_DR11_FCCee91_2_CLIC91_bin2:
+        legTitle:
+                - "CLD, 91.2 GeV"
+                - "CLIC, 91 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E91_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.575000-0.800000
+
+thetaRes_DR11_FCCee365_CLIC380_bin3:
+        legTitle:
+                - "CLD, 365 GeV"
+                - "CLIC, 380 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E380_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.800000-0.925000
+
+thetaRes_DR11_FCCee91_2_CLIC91_bin3:
+        legTitle:
+                - "CLD, 91.2 GeV"
+                - "CLIC, 91 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E91_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.800000-0.925000
+
+thetaRes_DR11_FCCee365_CLIC380_bin4:
+        legTitle:
+                - "CLD, 365 GeV"
+                - "CLIC, 380 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E380_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.925000-0.975000
+
+thetaRes_DR11_FCCee91_2_CLIC91_bin4:
+        legTitle:
+                - "CLD, 91.2 GeV"
+                - "CLIC, 91 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/DR11_hists.root
+                - CLIC_o3_v14_ILCSoft-2018-08-10_gcc62_Zuds_E91_ConformalTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/thetaRes_0.925000-0.975000
+

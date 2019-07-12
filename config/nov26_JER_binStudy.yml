@@ -1,0 +1,110 @@
+default:
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/performance/
+    legPos:
+        - 0.2
+        - 0.76
+        - 0.8
+        - 0.9
+    yAxisTitleOffset: 0.95
+    textLabel:
+        pos:
+        - 0.9
+        - 1.02
+        title: CLD
+    yAxisRange:
+        - 0.02 
+        - 0.10
+    savePictDir: "JER_binStudy"
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+    histName: 
+        - jetClustering/2SCrystalBallSigmaResVsCosTheta
+    yAxisRange:
+        - 2.0 
+        - 10.0
+
+
+JER_90bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_90bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_90bins.root
+    legTitle:
+        - "90bins: 91GeV"
+        - "90bins: 365GeV"
+
+JER_105bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_105bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_105bins.root
+    legTitle:
+        - "105bins: 91GeV"
+        - "105bins: 365GeV"
+
+JER_120bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_120bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_120bins.root
+    legTitle:
+        - "120bins: 91GeV"
+        - "120bins: 365GeV"
+
+JER_135bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_135bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_135bins.root
+    legTitle:
+        - "135bins: 91GeV"
+        - "135bins: 365GeV"
+
+JER_150bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_150bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_150bins.root
+    legTitle:
+        - "150bins: 91GeV"
+        - "150bins: 365GeV"
+
+JER_165bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_165bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_165bins.root
+    legTitle:
+        - "165bins: 91GeV"
+        - "165bins: 365GeV"
+
+JER_180bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_180bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_180bins.root
+    legTitle:
+        - "180bins: 91GeV"
+        - "180bins: 365GeV"
+
+JER_195bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_195bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_195bins.root
+    legTitle:
+        - "195bins: 91GeV"
+        - "195bins: 365GeV"
+
+JER_210bins:
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_210bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_210bins.root
+    legTitle:
+        - "210bins: 91GeV"
+        - "210bins: 365GeV"
+
+JER_RMS90:
+    dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+    histName: 
+        - jetClustering/ResVsCosTheta
+    fileName:
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_150bins.root
+        - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_150bins.root
+    legTitle:
+        - "RMS90: 91GeV"
+        - "RMS90: 365GeV"
+    yAxisRange:
+        - 2.0 
+        - 10.0

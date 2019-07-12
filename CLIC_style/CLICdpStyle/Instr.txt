@@ -1,0 +1,16 @@
++—————————————+
+| CLICdpLabel |
++—————————————+
+
+- Default 
+  Add in your macro: 
+  CLICdpLabel();
+  It prints: “CLICdp work in progress” in black in the top left corner of the pad.
+
+- Options
+  If a different pad position, text label or color is needed, use: 
+  CLICdpLabel(x,y,“text_after_CLICdp”,color); //NDC coordinates
+  example1: CLICdpLabel(0.50,0.50,“preliminary”,kRed); 
+  example2: CLICdpLabel(0.50,0.50); //if you want redefine only the position 
+  The possibility to redefine only the text is also provided:
+  example3: CLICdpLabel(“”); //if you want change the label text but not the default position. In this particular case, it prints only “CLICdp” (to be used for figure in papers).  

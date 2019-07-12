@@ -1,0 +1,30 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/
+        yAxisTitleOffset: 0.95
+        savePictDir: "JER_ecal30_91GeV"
+        histName: 
+            - ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 8.0
+        legPos:
+            - 0.2
+            - 0.76
+            - 0.8
+            - 0.9
+
+JER_RMS90_91_2gev_ecal30_vs_ecal40:
+        fileName:
+            - FCCee_conformalTracking/hist_Zuds91.root
+            - FCCee_ecal30/hist_Zuds91.root
+        legTitle:
+            - "40 layers"
+            - "30 layers"
+
+JER_RMS90_380gev_ecal30_vs_ecal40:
+        fileName:
+            - FCCee_conformalTracking/hist_Zuds380.root
+            - FCCee_ecal30/hist_Zuds380.root
+        legTitle:
+            - "40 layers"
+            - "30 layers"

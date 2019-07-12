@@ -1,0 +1,99 @@
+default:
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: jetAngularRes_debug
+        # yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        # legCaptionMode: "RMS"
+        # normalize: True
+        # logY: True
+        # drawOption: "HIST"
+        # xAxisRange:
+        #     - -5
+        #     - 5
+
+thetaRes_kaon_91_2_vsCosTheta:
+        legTitle:
+                - "K0 #Delta#theta, 4 Tesla, 91.2 GeV"
+                - "K0 #Delta#theta, 2 Tesla, 91.2 GeV"
+                - "K0 #Delta#theta, 0.1 Tesla, 91.2 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/kaonThetaRes
+        yAxisRange:
+                - 0.0
+                - 1.5
+        yAxisLabel: "RMS_{90}(#Delta#theta) [#circ]"
+        legPos:
+                - 0.2
+                - 0.2
+                - 0.78
+                - 0.4
+
+phiRes_kaon_91_2_vsCosTheta:
+        legTitle:
+                - "K0 #Delta#phi, 4 Tesla, 91.2 GeV"
+                - "K0 #Delta#phi, 2 Tesla, 91.2 GeV"
+                - "K0 #Delta#phi, 0.1 Tesla, 91.2 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/kaonPhiRes
+        yAxisRange:
+                - 0.0
+                - 1.5
+        yAxisLabel: "RMS_{90}(#Delta#phi) [#circ]"
+        legPos:
+                - 0.2
+                - 0.2
+                - 0.78
+                - 0.4
+
+        
+thetaRes_pion_365_vsCosTheta:
+        legTitle:
+                - "pi- #Delta#theta, 4 Tesla, 365 GeV"
+                - "pi- #Delta#theta, 2 Tesla, 365 GeV"
+                - "pi- #Delta#theta, 0.1 Tesla, 365 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/pionThetaRes
+        yAxisRange:
+                - 0.008
+                - 0.03
+        yAxisLabel: "RMS_{90}(#Delta#theta) [#circ]"
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+
+phiRes_pion_365_vsCosTheta:
+        legTitle:
+                - "pi- #Delta#phi, 4 Tesla, 365 GeV"
+                - "pi- #Delta#phi, 2 Tesla, 365 GeV"
+                - "pi- #Delta#phi, 0.1 Tesla, 365 GeV"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+        histName: 
+                - jetClustering/pionPhiRes
+        yAxisRange:
+                - 0.008
+                - 0.03
+        yAxisLabel: "RMS_{90}(#Delta#phi) [#circ]"
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+

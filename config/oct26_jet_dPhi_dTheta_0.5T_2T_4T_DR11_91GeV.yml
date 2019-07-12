@@ -1,0 +1,52 @@
+default:
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        savePictDir: jetAngularRes_debug
+        # yAxisLabel: "Counts"
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        # legCaptionMode: "RMS"
+        # normalize: True
+        # logY: True
+        # drawOption: "HIST"
+        # xAxisRange:
+        #     - -5
+        #     - 5
+        legTitle:
+                - "91.2 GeV, #Delta R = 1.1, 2 Tesla"
+                - "91.2 GeV, #Delta R = 1.1, 4 Tesla"
+                - "91.2 GeV, #Delta R = 1.1, 0.5 Tesla"
+                # - "91.2 GeV, #Delta R = 1.1, 0.1 Tesla"
+        fileName:
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_2Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_4Tesla_truthTr_run1_files/DR11_hists.root
+                - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_0_5Tesla_truthTr_run1_files/DR11_hists.root
+                # - FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_TruthTr_0_1Tesla_truthTr_run1_files/DR11_hists.root
+
+thetaRes_DR11_91_2_vsCosTheta:
+        histName: 
+                - jetClustering/thetaRes
+        yAxisRange:
+                - 0.0
+                - 1.0
+        legPos:
+                - 0.2
+                - 0.2
+                - 0.78
+                - 0.4
+        yAxisLabel: "RMS_{90}(#Delta#theta) [#circ]"
+
+phiRes_DR11_91_2_vsCosTheta:
+        histName: 
+                - jetClustering/phiRes
+        yAxisRange:
+                - 0.0
+                - 2.5
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        yAxisLabel: "RMS_{90}(#Delta#phi) [#circ]"
+
+        
+

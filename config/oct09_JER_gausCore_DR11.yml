@@ -1,0 +1,44 @@
+default:
+        legPos:
+                - 0.2
+                - 0.7
+                - 0.78
+                - 0.9
+        yAxisRange:
+                - 0.
+                - 8
+        yAxisTitleOffset: 0.95
+        # skipMissingHists: 1
+        histName: 
+                - jetClustering/2SCrystalBallSigmaResVsCosTheta
+                - jetClustering/ResVsCosTheta
+                - jetClustering/2SCrystalBall_LeftLimit_VsCosThetaHist
+                # - jetClustering/2SCrystalBall_RightLimit_VsCosThetaHist
+                - jetClustering/2SCrystalBall_GaussCoreWidth_VsCosThetaHist
+                - jetClustering/2SCrystalBall_GausCoreIntegralFraction_VsCosThetaHist
+        savePictDir: jetClusteringFitVsBinning_DR11/
+        yAxisLabel: "Resolution [%]"
+
+JER_365_RMS90_150bins:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E365_ConformalTr_defaultSetting_jun26_files/
+        legTitle:
+                - "150 bins"
+                - "RMS90"
+                - "a1"
+                # - "a2"
+                - "(a1+a2)/2"
+                - "Gaus Core Integral Fraction"
+        fileName:
+                - DR11_150bins.root
+
+JER_91_2_RMS90_150bins:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/FCCee_o1_v03_ILCSoft-2018-08-10_gcc62_zuds_E91.2_ConformalTr_defaultSetting_jun26_files/
+        legTitle:
+                - "150 bins"
+                - "RMS90"
+                - "a1"
+                # - "a2"
+                - "(a1+a2)/2"
+                - "Gaus Core Integral Fraction"
+        fileName:
+                - DR11_150bins.root

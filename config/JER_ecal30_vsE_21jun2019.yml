@@ -1,0 +1,39 @@
+default:
+        drawOption: AP
+        sameDrawOption: P
+        # sortXaxisInGraph: True
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/FCCee_ecal30/forPlots/
+        # lineWidth: 0
+        # canPos:
+                # - 0
+                # - 0
+                # - 800
+                # - 800
+        # yAxisLabel: "#sigma(E_{K^{0}_{L}})/E_{K^{0}_{L}} [%]"
+        yAxisTitleOffset: 0.96
+        # xAxisLabel: Energy [GeV]
+        yAxisRange:
+                - 3.0
+                - 5.0
+        # markerSize: 1.6
+        histColor:
+                - 625 
+                - 1
+
+JER_SWC_noWC_vs_energy_res7:
+        histName: 
+                - res6
+        # gridX: 1
+        # gridY: 1
+        fileName:
+                - ecal40_res6.root
+                - ecal30_res6.root
+        legTitle:
+                - "40 layers"
+                - "30 layers"
+        legPos:
+            - 0.5
+            - 0.76
+            - 0.8
+            - 0.9
+
