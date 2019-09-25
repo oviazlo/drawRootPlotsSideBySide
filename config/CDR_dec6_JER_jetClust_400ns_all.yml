@@ -1,0 +1,50 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        yAxisTitleOffset: 0.95
+        savePictDir: "CDR_JER_400ns"
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 8.0
+        textLabel1:
+            pos:
+                - 0.6
+                - 0.82
+            title: "400 ns" 
+        legPos:
+                - 0.2
+                - 0.70
+                - 0.6
+                - 0.9
+        legTitle:
+            - "no BG"
+            - "with BG"
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisLabel: "RMS_{90}(E_{j}^{R}/E_{j}^{G})/Mean_{90}(E_{j}^{R}/E_{j}^{G}) [%]"
+        # textLabel3:
+        #     pos:
+        #     - 0.6
+        #     - 0.9
+        #     title: "VLC11 Jets"
+        yAxisTitleSize: 0.055
+        yAxisTitleOffset: 1.1
+
+
+JER_RMS90_DR11_BG_vs_noBg_91_2_and_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_run1_files/DR11_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/DR11_hists.root
+        legTitle:
+            - "45.6 GeV, no BG"
+            - "45.6 GeV, with BG"
+            - "182.5 GeV, no BG"
+            - "182.5 GeV, with BG"
+        latexLabel2:
+            pos:
+                - 0.6
+                - 0.9
+            title: "VLC11 Jets" 

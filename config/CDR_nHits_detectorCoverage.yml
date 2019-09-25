@@ -20,8 +20,8 @@ trackerCoverage_nHitsVsPhi:
                 - "thetaHistVec"
         legPos:
                 - 0.4
-                - 0.67
-                - 0.7
+                - 0.65
+                - 0.69
                 - 0.9
         # histColor:
         #         - 1
@@ -38,16 +38,17 @@ trackerCoverage_nHitsVsPhi:
         # xAxisRange:
         #         - 0
         #         - 120
-        # yAxisRange:
-        #         - 0.0
-        #         - 2
+        yAxisRange:
+                - 0.0
+                - 20
+        legTextSize: 0.029
         # histTitle: "E_{#gamma}=100 GeV"
         # legCaptionMode: entries
         # logY: 1
         xAxisLabel: "#theta [#circ]"
         yAxisLabel: "Number of hits"
-        rebinFactor: 10
-        scaleFactor: 0.1
+        rebinFactor: 20
+        scaleFactor: 0.05
         markerStyle:
                 - 0
                 - 0

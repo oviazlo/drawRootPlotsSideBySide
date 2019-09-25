@@ -163,6 +163,9 @@ class helperClass:
                         print ('[FATAL]\t Terminating...')
                         sys.exit()
                 hist = myFile.Get(histName[k])
+                if ("drawHistFuncs" in cfg):
+                  if (cfg["drawHistFuncs"]==True):
+                    print(self.fileName[i])
 
                 funcList = hist.GetListOfFunctions()
                 funcCounter = 0
@@ -174,6 +177,9 @@ class helperClass:
                                 tmpFunc = iFunc.Clone("histFunc_%d_%d" % (i,funcCounter))
                                 tmpFunc.SetLineColor(self.histColor[0])
                                 tmpFunc.SetNpx(1000)
+                                nPars = tmpFunc.GetNpar()
+                                for i in range(0, nPars):
+                                  print tmpFunc.GetParameter(i)
                                 histFuncs.append(tmpFunc)
                         iFunc.Delete()
 
@@ -197,10 +203,8 @@ class helperClass:
                     cfg.pop('histTitle')
                 if ("rebinFactor" in cfg):
                     hist.Rebin(cfg['rebinFactor'])
-                    cfg.pop('rebinFactor')
                 if ("scaleFactor" in cfg):
                     hist.Scale(cfg['scaleFactor'])
-                    cfg.pop('scaleFactor')
                 if ("normalize" in cfg):
                     hist.Scale(1.0/hist.Integral())
                     cfg.pop('normalize')
@@ -246,6 +250,10 @@ class helperClass:
 
         if ("drawHistFuncs" in cfg):
             cfg.pop('drawHistFuncs')
+        if ("rebinFactor" in cfg):
+            cfg.pop('rebinFactor')
+        if ("scaleFactor" in cfg):
+            cfg.pop('scaleFactor')
 
         return self.hists, histFuncs
 

@@ -2,11 +2,6 @@ default:
         dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/build_20jun2019/PhotonECAL/
         yAxisTitleOffset: 0.95
         savePictDir: "photonRes_21jun2019"
-        histName: 
-            - Graph
-        yAxisRange:
-            - 1.0 
-            - 9.0
         legPos:
             - 0.6
             - 0.76
@@ -18,13 +13,30 @@ default:
         markerStyle:
                 - 20
                 - 21
-        yAxisLabel: "#sigma_{#gamma}/E_{#gamma} [%]"
         xAxisLabel: "Energy [GeV]"
-
-photonRes_ecal40_ecal30:
-        fileName:
-            - old/SinglePart_gamm/eventHists_noConv_Photon.root
-            - eventHists_noConv_Photon.root
         legTitle:
             - "40 layers"
             - "30 layers"
+            - "20 layers"
+            - "20+10 layers"
+        histName: 
+            - Graph
+        yAxisLabel: "#sigma_{#gamma}/E_{#gamma} [%]"
+        yAxisRange:
+            - 1.5
+            - 10.0
+        # drawHistFuncs: True
+
+photonRes_barrel_ecal40_ecal30_ecal20_ecal20_10:
+        fileName:
+            - old/SinglePart_gamm/eventHists_noConv__Theta50_130_Photon.root
+            - ecal30/eventHists_noConv__Theta50_130_Photon.root
+            - ecal20/eventHists_noConv__Theta50_130_Photon.root
+            - ecal20_10_fixed_v2_factor1_9/eventHists_noConv__Theta50_130_Photon.root
+
+photonRes_endcap_ecal40_ecal30_ecal20_ecal20_10:
+        fileName:
+            - old/SinglePart_gamm/eventHists_noConv__Theta15_40_Photon.root
+            - ecal30/eventHists_noConv__Theta15_40_Photon.root
+            - ecal20/eventHists_noConv__Theta15_40_Photon.root
+            - ecal20_10_fixed_v2_factor1_9/eventHists_noConv__Theta15_40_Photon.root

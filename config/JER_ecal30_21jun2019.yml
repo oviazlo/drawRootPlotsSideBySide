@@ -16,15 +16,27 @@ default:
 JER_RMS90_91_2gev_ecal30_vs_ecal40:
         fileName:
             - FCCee_conformalTracking/hist_Zuds91.root
-            - FCCee_ecal30/hist_Zuds91.root
+            - FCCee_ecal40/hist_Zuds91.root
+            # - FCCee_ecal30_v2_fixed/hist_Zuds91.root
+            # - FCCee_ecal20/hist_Zuds91.root
+            # - FCCee_ecal20_10_factor1_9/hist_Zuds91.root
         legTitle:
-            - "40 layers"
-            - "30 layers"
+            - "40 layers v1"
+            - "40 layers v2"
+            # - "30 layers"
+            # - "20 layers"
+            # - "20+10 layers"
 
 JER_RMS90_380gev_ecal30_vs_ecal40:
         fileName:
             - FCCee_conformalTracking/hist_Zuds380.root
-            - FCCee_ecal30/hist_Zuds380.root
+            - FCCee_ecal40/hist_Zuds380.root
+            # - FCCee_ecal30_v2_fixed/hist_Zuds380.root
+            # - FCCee_ecal20/hist_Zuds380.root
+            # - FCCee_ecal20_10_factor1_9/hist_Zuds380.root
         legTitle:
-            - "40 layers"
-            - "30 layers"
+            - "40 layers v1"
+            - "40 layers v2"
+            # - "30 layers"
+            # - "20 layers"
+            # - "20+10 layers"

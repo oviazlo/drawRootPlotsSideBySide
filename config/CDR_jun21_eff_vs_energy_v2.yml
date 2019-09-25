@@ -35,7 +35,7 @@ jun22_pions_eff_vs_energy_v2:
                 # - "CLICdet"
                 # - "CLD: more tight muon reco requirement (max 15 hits)"
                 - "CLD: 2018-05-18 (optimized muon cuts)"
-        additionalLabel: "Single #pi^{-}" 
+        additionalLabel: "Single #pi^{-}"
 
 jun22_muons_eff_vs_energy_v2:
         fileName:
@@ -44,54 +44,56 @@ jun22_muons_eff_vs_energy_v2:
         legTitle:
                 # - "CLD: 2018-04-26"
                 - "CLD: 2018-05-18 (optimized muon cuts)"
-        additionalLabel: "Single #mu^{-}" 
+        additionalLabel: "Single #mu^{-}"
 
-# jun22_photons_eff_vs_energy:
-#         fileName:
-#                 # - FCCee_o1_v03/photons/CALOR/eventHists_photonAndNeutralRecl_looseThetaCut.root
-#                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/eventHists_photonRecl.root
-#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/eventHists_photonRecl_withAngularMatchForCombinedCands.root
-#         legTitle:
-#                 - "CLD: 2018-04-26"
-#                 - "CLD: 2018-05-18 (photon merging)"
-#                 - "CLD: 2018-05-18 (photon merging + angular)"
+# # jun22_photons_eff_vs_energy:
+# #         fileName:
+# #                 # - FCCee_o1_v03/photons/CALOR/eventHists_photonAndNeutralRecl_looseThetaCut.root
+# #                 # - FCCee_o1_v03/muonAlgCutOptimization/photons/eventHists_photonRecl.root
+# #                 - FCCee_o1_v03/muonAlgCutOptimization/photons/eventHists_photonRecl_withAngularMatchForCombinedCands.root
+# #         legTitle:
+# #                 - "CLD: 2018-04-26"
+# #                 - "CLD: 2018-05-18 (photon merging)"
+# #                 - "CLD: 2018-05-18 (photon merging + angular)"
+# #
 #
-
-jun22_photons_noConv_eff_vs_energy_v2:
-        fileName:
-                - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_noConv.root
-        additionalLabel: "Single #gamma" 
-
-jun22_photons_conv_eff_vs_energy_v2:
-        fileName:
-                - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_conv_noEnergyMatching.root
-                - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_conv.root
-                - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_photonRecl_conv_noEnergyMatching.root
-                - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_photonRecl_conv.root
-        legTitle:
-                - "angular matched"
-                - "angular and energy matched"
-                - "angular matched, merged #gamma"
-                - "angular and energy matched, merged #gamma"
-        yAxisRange:
-                - -0.09
-                - 1.01
-        legPos:
-                - 0.315
-                - 0.2
-                - 0.9
-                - 0.45
-        legTextSize: 0.03
-        legDrawOption: "p"
-        additionalLabel: "Single #gamma" 
-        additionalLabel_xShift: 0.1
+# jun22_photons_noConv_eff_vs_energy_v2:
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_noConv.root
+#         additionalLabel: "Single #gamma"
+#
+# jun22_photons_conv_eff_vs_energy_v2:
+#         fileName:
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_conv_noEnergyMatching.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_conv.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_photonRecl_conv_noEnergyMatching.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/photons/woMuonOptCuts/eventHists_photonRecl_conv.root
+#         legTitle:
+#                 - "angular matched"
+#                 - "angular and energy matched"
+#                 - "angular matched, merged #gamma"
+#                 - "angular and energy matched, merged #gamma"
+#         yAxisRange:
+#                 - -0.09
+#                 - 1.01
+#         legPos:
+#                 - 0.315
+#                 - 0.2
+#                 - 0.9
+#                 - 0.45
+#         legTextSize: 0.03
+#         legDrawOption: "p"
+#         additionalLabel: "Single #gamma"
+#         additionalLabel_xShift: 0.1
 
 # jun22_electrons_eff_vs_energy:
 #         fileName:
-#                 # - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/eventHists_photonRecl_useCaloForMergedCandidates_5percent.root
-#                 # - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/eventHists_photonRecl_useCaloForMergedCandidates_7percent.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/eventHists_photonRecl_useCaloForMergedCandidates_5percent.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/eventHists_photonRecl_useCaloForMergedCandidates_7percent.root
 #                 - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/eventHists_photonRecl_useCaloForMergedCandidates_10percent.root
 #         legTitle:
 #                 - "#Delta p_{T}< 5%"
 #                 - "#Delta p_{T}< 7%"
 #                 - "#Delta p_{T}< 10%"
+#         histName:
+#                 - Graph

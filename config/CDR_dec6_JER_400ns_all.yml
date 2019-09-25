@@ -1,0 +1,40 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/LCPandoraAnalysis/RUN/TEMPLATES/
+        yAxisTitleOffset: 0.95
+        savePictDir: "CDR_JER_400ns"
+        histName: 
+            - jetClustering/ResVsCosTheta
+        yAxisRange:
+            - 3.0 
+            - 8.0
+        textLabel1:
+            pos:
+                - 0.6
+                - 0.82
+            title: "400 ns" 
+        legPos:
+                - 0.2
+                - 0.76
+                - 0.4
+                - 0.9
+        histName: 
+            - totalEnergy/ResVsCosTheta
+
+JER_RMS90_totalE_BG_vs_noBg_365gev:
+        fileName:
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_run1_files/totalE_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_400ns_Overlay_run2_files/totalE_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_run1_files/totalE_hists.root
+            - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_400ns_Overlay_run1_files/totalE_hists.root
+        legTitle:
+            - "182.5 GeV, no BG"
+            - "182.5 GeV, with BG"
+            - "45.6 GeV, no BG"
+            - "45.6 GeV, with BG"
+        textLabel2:
+            pos:
+                - 0.6
+                - 0.9
+            title: "400 ns" 
+
+

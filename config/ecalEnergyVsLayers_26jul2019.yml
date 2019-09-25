@@ -1,0 +1,34 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/build_test/PhotonECAL/test/
+        yAxisTitleOffset: 0.95
+        savePictDir: "ecalEnergyVsLayers_26jul2019"
+        histName: 
+            - ECALBarrel/CAL/AverageEnergyPerLayers
+        yAxisRange:
+            - 0.0 
+            - 0.1
+        legPos:
+            - 0.6
+            - 0.76
+            - 0.8
+            - 0.9
+        markerSize: 1.2
+        drawOption: P
+        sameDrawOption: P
+        markerStyle:
+                - 20
+                - 21
+                - 22
+        yAxisTitleOffset: 1.1
+        # yAxisLabel: "#sigma_{#gamma}/E_{#gamma} [%]"
+        # xAxisLabel: "Energy [GeV]"
+
+ecalEnergyVsLayers_ecal20_10:
+        fileName:
+            - energyFill_E5_Theta85_95.root
+            - energyFill_E10_Theta85_95.root
+            - energyFill_E100_Theta85_95.root
+        legTitle:
+            - "5 GeV"
+            - "10 GeV"
+            - "100 GeV"
