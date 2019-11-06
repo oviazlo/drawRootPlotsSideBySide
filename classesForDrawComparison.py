@@ -320,6 +320,8 @@ class helperClass:
             xAxis = hists[0].GetXaxis()
             xCoord = xAxis.GetBinLowEdge(xAxis.GetFirst()) + (xAxis.GetBinUpEdge(xAxis.GetLast()) - xAxis.GetBinLowEdge(xAxis.GetFirst())) * labelCfg["pos"][0]
             yCoord = hists[0].GetMinimum() + (hists[0].GetMaximum() - hists[0].GetMinimum()) * labelCfg["pos"][1]
+            if type(hists[0]) == ROOT.TGraph or type(hists[0]) == ROOT.TGraphErrors or type(hists[0]) == ROOT.TGraphAsymmErrors:
+              yCoord = hists[0].GetHistogram().GetMinimum() + (hists[0].GetHistogram().GetMaximum() - hists[0].GetHistogram().GetMinimum()) * labelCfg["pos"][1]
             labelCfg.pop("pos")
             try:
                 tlabel = callFunction(xCoord,yCoord,labelCfg["title"])

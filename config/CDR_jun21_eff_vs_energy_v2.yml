@@ -24,27 +24,38 @@ default:
         # histColor:
         #         - 2
 
-jun22_pions_eff_vs_energy_v2:
-        fileName:
-                # - FCCee_o1_v02_extendedEndcap/pion/conformal_iLCSoft_2017_12_21/eventHists.root
-                # - CLIC_o3_v14/pions/eventHists.root
-                # - FCCee_o1_v03/pions/pionMuonMisReco/muonReco_15hits/eventHists.root
-                - FCCee_o1_v03/muonAlgCutOptimization/pions/eventHists.root
-        legTitle:
-                # - "CLD: 2018-04-26"
-                # - "CLICdet"
-                # - "CLD: more tight muon reco requirement (max 15 hits)"
-                - "CLD: 2018-05-18 (optimized muon cuts)"
-        additionalLabel: "Single #pi^{-}"
-
-jun22_muons_eff_vs_energy_v2:
-        fileName:
-                # - FCCee_o1_v02_extendedEndcap/muon/conformal_iLCSoft_2017_12_21/eventHists.root
-                - FCCee_o1_v03/muonAlgCutOptimization/muons/eventHists.root
-        legTitle:
-                # - "CLD: 2018-04-26"
-                - "CLD: 2018-05-18 (optimized muon cuts)"
-        additionalLabel: "Single #mu^{-}"
+# jun22_pions_eff_vs_energy_v2:
+#         fileName:
+#                 # - FCCee_o1_v02_extendedEndcap/pion/conformal_iLCSoft_2017_12_21/eventHists.root
+#                 # - CLIC_o3_v14/pions/eventHists.root
+#                 # - FCCee_o1_v03/pions/pionMuonMisReco/muonReco_15hits/eventHists.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/pions/eventHists.root
+#         legTitle:
+#                 # - "CLD: 2018-04-26"
+#                 # - "CLICdet"
+#                 # - "CLD: more tight muon reco requirement (max 15 hits)"
+#                 - "CLD: 2018-05-18 (optimized muon cuts)"
+#         # additionalLabel: "Single #pi^{-}"
+#         latexLabel1:
+#             pos:
+#                 - 0.85
+#                 - 1.03
+#             title: "Single #pi^{-}"
+#
+# jun22_muons_eff_vs_energy_v2:
+#         fileName:
+#                 # - FCCee_o1_v02_extendedEndcap/muon/conformal_iLCSoft_2017_12_21/eventHists.root
+#                 - FCCee_o1_v03/muonAlgCutOptimization/muons/eventHists.root
+#         legTitle:
+#                 # - "CLD: 2018-04-26"
+#                 - "CLD: 2018-05-18 (optimized muon cuts)"
+#         # additionalLabel: "Single #mu^{-}"
+#         latexLabel1:
+#             pos:
+#                 - 0.85
+#                 - 1.03
+#             title: "Single #mu^{-}"
+#
 
 # # jun22_photons_eff_vs_energy:
 # #         fileName:
@@ -97,3 +108,23 @@ jun22_muons_eff_vs_energy_v2:
 #                 - "#Delta p_{T}< 10%"
 #         histName:
 #                 - Graph
+#
+
+sep25_electrons_eff_vs_energy_v2:
+        histName:
+                - Graph
+        fileName:
+                # - FCCee_o1_v02_extendedEndcap/pion/conformal_iLCSoft_2017_12_21/eventHists.root
+                # - CLIC_o3_v14/pions/eventHists.root
+                # - FCCee_o1_v03/pions/pionMuonMisReco/muonReco_15hits/eventHists.root
+                - FCCee_o1_v03/muonAlgCutOptimization/electrons/woMuonOptCuts_50mm/test_sep2019/eventHists_photonRecl_useCaloForMergedCandidates_noAngularMatForMergedCandidates_vsEnergy.root
+        # legTitle:
+        #         - "CLD: 2018-04-26"
+                # - "CLICdet"
+                # - "CLD: more tight muon reco requirement (max 15 hits)"
+                # - "CLD: 2018-05-18 (optimized muon cuts)"
+        latexLabel1:
+            pos:
+                - 0.32
+                - 0.33
+            title: "Single e^{-}"

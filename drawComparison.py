@@ -8,7 +8,7 @@ from ROOT import TCanvas, TGraph, TLegend, TF1, TH1, TH1F, TLatex, TText
 from ROOT import gROOT, gStyle
 from array import array
 from math import tan
-ROOT.gROOT.LoadMacro("CLIC_style/CLICdpStyle/rootstyle/CLICdpStyle.C+")
+ROOT.gROOT.LoadMacro(os.path.join(os.path.dirname(__file__), "CLIC_style/CLICdpStyle/rootstyle/CLICdpStyle.C+"))
 ROOT.CLICdpStyle()
 
 from classesForDrawComparison import helperClass, readYamlFile, notUsedAttribute
@@ -66,6 +66,8 @@ def main(yamlFile):
         # Save plots
         #********************************************************************************
         print ("")
+        if not os.path.exists("pictures/"):
+            os.makedirs("pictures/")
         outHistName = cfgIterator
         if ("histNamePrefix" in cfg):
             outHistName = cfg['histNamePrefix'] + outHistName
