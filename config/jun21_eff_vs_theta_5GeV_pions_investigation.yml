@@ -1,0 +1,78 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/ 
+        # legTitle:
+                # - "conformal"
+                # - "truth"
+                # - CLD
+        histName: 
+                - eventHists/efficiencyVsTheta
+        legPos:
+                - 0.4
+                - 0.4
+                - 0.75
+                - 0.62
+        # xAxisRange:
+        #         - 0
+        #         - 120
+        yAxisRange:
+                - 0.0
+                - 1.01
+        # drawOption: HIST
+        # sameDrawOption: HIST
+        xAxisLabel: "#theta [deg]"
+        yAxisLabel: "Efficiency"
+        # histColor:
+        #         - 2
+        # rebinFactor: 10
+        # scaleFactor: 0.1
+        markerSize: 0.1
+        drawOption: "AP"
+        sameDrawOption: "P"
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
+
+jun22_pions_eff_vs_cosTheta_failMatching:
+        xAxisLabel: "cos(#theta)"
+        histName:
+                - eventHists/tEff/efficiencyVsCosTheta
+                - eventHists/efficiencyVsCosThetaFailEnergyMatching
+                - eventHists/efficiencyVsCosThetaFailAngularMatching
+                - eventHists/efficiencyVsCosThetaFailType/all
+        fileName:
+                - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E5_Theta9_171.root
+        legTitle:
+                - "nominal selection"
+                - "fail energy matching"
+                - "fail angular matching"
+                - "fail type matching" 
+        latexLabel_123346:
+                pos:
+                        - 0.32
+                        - 0.625
+                title: "Single #pi^{-}"
+
+jun22_pions_eff_vs_cosTheta_failTypeMatching:
+        xAxisLabel: "cos(#theta)"
+        histName:
+                - eventHists/tEff/efficiencyVsCosTheta
+                - eventHists/efficiencyVsCosThetaFailType/noChargedParts
+                - eventHists/efficiencyVsCosThetaFailType/onlyElectron
+                - eventHists/efficiencyVsCosThetaFailType/onlyMuon
+                # - eventHists/efficiencyVsCosThetaFailType/chargePartsOfTwoOrMoreTypes
+        fileName:
+                - FCCee_o1_v03/muonAlgCutOptimization/pions/particleGun_E5_Theta9_171.root
+        legTitle:
+                - "nominal selection"
+                - "no charged PFOs" 
+                - "misid. as electron"
+                - "misid. as muon"
+                # - ">= 2 charged PFO"
+        latexLabel_123346:
+                pos:
+                        - 0.32
+                        - 0.625
+                title: "Single #pi^{-}"

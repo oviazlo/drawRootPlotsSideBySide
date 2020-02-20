@@ -1,0 +1,62 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/FCCee_o1_v03/overlay/
+        legPos:
+                - 0.6
+                - 0.6
+                - 0.9
+                - 0.8
+        xAxisTitleSize: 0.06
+        yAxisRange:
+                - 50.0
+                - 400000.0
+        xAxisRange:
+                - 0.0
+                - 0.1
+        legTitle:
+                - "ECAL Endcap"
+                - "HCAL Endcap"
+        histName: 
+                - ECALEndcap/CAL/energySpectrum
+                - HCALEndcap/CAL/energySpectrum
+        rebinFactor: 20
+        logY: True
+        xAxisLabel: "Energy [GeV]"
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.2
+            title: "FCC-ee CLD"
+            TextSize: 0.04
+
+365GeV_overlay_energySpectrum:
+        fileName:
+                - 365GeV_bigSample.root
+        latexLabel1:
+            pos:
+                - 0.17
+                - 0.3
+            title: "365 GeV e^{+}e^{-} incoherent pair background"
+            TextSize: 0.04
+
+
+zuds_overlay_energySpectrum:
+        fileName:
+                - zuds_E365_400ns_100evt.root
+        latexLabel1:
+            pos:
+                - 0.25
+                - 0.3
+            title: "Z/#gamma* #rightarrow q#bar{q} (q = u, d, s), m_{Z} = 365 GeV"
+            TextSize: 0.04
+
+
+zuds_vs_overlay_energySpectrum:
+        fileName:
+                - 365GeV_bigSample.root
+                - zuds_E365_400ns_100evt.root
+        legTitle:
+                - "ECAL, bkg"
+                - "HCAL, bkg"
+                - "ECAL, zuds"
+                - "HCAL, zuds"
+

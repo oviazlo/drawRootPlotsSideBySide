@@ -194,10 +194,8 @@ class helperClass:
 
                 if ("lineWidth" in cfg):
                     hist.SetLineWidth(cfg["lineWidth"])
-                    cfg.pop('lineWidth')
                 if ("markerSize" in cfg):
                     hist.SetMarkerSize(cfg["markerSize"])
-                    cfg.pop('markerSize')
                 if ("histTitle" in cfg):
                     hist.SetTitle(cfg['histTitle'])
                     cfg.pop('histTitle')
@@ -206,8 +204,7 @@ class helperClass:
                 if ("scaleFactor" in cfg):
                     hist.Scale(cfg['scaleFactor'])
                 if ("normalize" in cfg):
-                    hist.Scale(1.0/hist.Integral())
-                    cfg.pop('normalize')
+                    hist.Scale(1.0 / hist.Integral())
 
                 if ("sortXaxisInGraph" in cfg):
                     if (cfg["sortXaxisInGraph"]==True):
@@ -245,20 +242,25 @@ class helperClass:
                     hist.GetXaxis().SetTitleSize(float(cfg['xAxisTitleSize']))
                     cfg.pop('xAxisTitleSize')
 
-
-                self.hists.append(hist)         
+                self.hists.append(hist)
 
         if ("drawHistFuncs" in cfg):
             cfg.pop('drawHistFuncs')
         if ("rebinFactor" in cfg):
             cfg.pop('rebinFactor')
+        if ("markerSize" in cfg):
+            cfg.pop('markerSize')
+        if ("lineWidth" in cfg):
+            cfg.pop('lineWidth')
         if ("scaleFactor" in cfg):
             cfg.pop('scaleFactor')
+        if ("normalize" in cfg):
+            cfg.pop('normalize')
 
         return self.hists, histFuncs
 
-################################################################################
-################################################################################
+###############################################################################
+###############################################################################
 #  def processSedMe(globalCfg):
 #      sedMePairs = []
 #      for cfgIterator in globalCfg:
@@ -347,6 +349,7 @@ class helperClass:
                         except (TypeError, ValueError):
                             raise pythonEvalFuncError('bad input for python eval() function: %s.Set%s(%s). Check attribute: %s' % (prefix, iSetFunc, labelCfg[iSetFunc], iSetFunc))
                     labelCfg.pop(iSetFunc)
+                    
 
             #  print("labelCfg:")
             #  print(labelCfg)
@@ -354,6 +357,7 @@ class helperClass:
             if (len(labelCfg)!=0):
                 print("\nNot used attributes in <%s>:" % (iLabel))
                 print(labelCfg)
+                print('Allowed Set functions: %s' % availableSetFunctions)
                 print("")
                 raise notUsedAttribute("there is(are) not used attribute(s) in <%s>. See above!" % (iLabel))
             cfg.pop(iLabel)

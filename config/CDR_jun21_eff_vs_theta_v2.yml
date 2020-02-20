@@ -28,6 +28,12 @@ default:
         markerSize: 0.1
         drawOption: "AP"
         sameDrawOption: "P"
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 #
 # jun22_pions_eff_vs_theta:
 #         fileName:
@@ -59,7 +65,11 @@ default:
 #                 - "E: 20 GeV"
 #                 # - "E: 50 GeV"
 #                 - "E: 100 GeV"
-#         additionalLabel: "Single #pi^{-}"
+#         latexLabel_123346:
+#                 pos:
+#                         - 0.32
+#                         - 0.325
+#                 title: "Single #pi^{-}"
 #
 # jun22_muons_eff_vs_theta:
 #         fileName:
@@ -87,7 +97,11 @@ default:
 #                 # - "E: 20 GeV"
 #                 - "E: 50 GeV"
 #                 - "E: 100 GeV"
-#         additionalLabel: "Single #mu^{-}"
+#         latexLabel_123346:
+#                 pos:
+#                         - 0.32
+#                         - 0.325
+#                 title: "Single #mu^{-}"
 #
 # jun22_photons_eff_vs_theta:
 #         histName:
@@ -176,7 +190,7 @@ sep25_electrons_eff_vs_cosTheta_v2:
                 - 0.33
             title: "Single e^{-}"
         # additionalLabel: "Single e^{-}"
-
+#
 # jun22_photons_noConv_eff_vs_theta:
 #         histName:
 #                 - eventHists_noConv/efficiencyVsTheta

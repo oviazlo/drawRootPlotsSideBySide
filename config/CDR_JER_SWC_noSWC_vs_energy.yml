@@ -19,6 +19,12 @@ default:
         histColor:
                 - 625 
                 - 1
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 
 JER_SWC_noWC_vs_energy_res7:
         histName: 

@@ -23,6 +23,12 @@ default:
                 - 0.0
                 - 8.0
         markerSize: 1.6
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 
 jun7_photonRes_barrel_vs_full:
         gridX: 1

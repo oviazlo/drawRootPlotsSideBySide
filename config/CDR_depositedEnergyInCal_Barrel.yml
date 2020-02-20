@@ -1,0 +1,38 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/FCCee_o1_v03/overlay/
+        legPos:
+                - 0.6
+                - 0.7
+                - 0.9
+                - 0.9
+        xAxisTitleSize: 0.06
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
+        legTitle:
+                - "ECAL Barrel"
+                - "HCAL Barrel"
+        histName: 
+                - ECALBarrel/CAL/energyVsZ2
+                - HCALBarrel/CAL/energyVsZ3
+        yAxisLabel: "Deposited energy [GeV / 10 cells / BX]"
+        yAxisTitleSize: 0.05
+        yAxisTitleOffset: 1.9
+
+365GeV_overlay_energyVsZ_Barrel:
+        fileName:
+                - 365GeV_bigSample.root
+        yAxisRange:
+                - 0.0
+                - 0.3
+
+91GeV_overlay_energyVsZ_Barrel:
+        fileName:
+                - 91GeV_bigSample.root
+        yAxisRange:
+                - 0.0
+                - 0.015
+        scaleFactor: 0.05

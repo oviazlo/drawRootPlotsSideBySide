@@ -80,6 +80,7 @@ def main(yamlFile):
             cfg.pop('savePictDir')
         canvas.SaveAs("pictures/"+outHistName+".png")
         canvas.SaveAs("pictures/"+outHistName+".pdf")
+        canvas.SaveAs("pictures/"+outHistName+".eps")
         canvas.SaveAs("pictures/"+outHistName+".C")
 
         #********************************************************************************

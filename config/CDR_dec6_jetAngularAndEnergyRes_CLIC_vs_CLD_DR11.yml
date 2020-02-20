@@ -32,6 +32,12 @@ default:
         yAxisRange:
             - 0.0
             - 1.9
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 
 thetaRes_DR11_FCCee_vs_CLIC_vsCosTheta:
         histName: 

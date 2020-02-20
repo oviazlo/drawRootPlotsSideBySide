@@ -14,11 +14,17 @@ default:
             - 0.9
         histName: 
             - totalEnergy/ResVsCosTheta
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 
 JER_RMS90_totalE_91_2gev_vs_365gev:
         fileName:
             - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E91.2_ConformalTr_run1_files/totalE_hists.root
             - FCCee_o1_v03_ILCSoft-2018-10-11_gcc62_zuds_E365_ConformalTr_run1_files/totalE_hists.root
         legTitle:
-            - "45.6 GeV Jets"
-            - "182.5 GeV Jets"
+            - "#approx 45.6 GeV Jets"
+            - "#approx 182.5 GeV Jets"

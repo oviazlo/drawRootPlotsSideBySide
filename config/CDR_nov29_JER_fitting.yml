@@ -27,6 +27,12 @@ default:
     yAxisTitleOffset: 1.1
     xAxisTitleSize: 0.055
     xAxisTitleOffset: 1.2
+    textLabel0:
+        pos:
+            - 0.0
+            - 1.02
+        title: "FCC-ee CLD"
+        TextSize: 0.04
 
 JER_fitting_91_vs_365GeV:
     histName: 

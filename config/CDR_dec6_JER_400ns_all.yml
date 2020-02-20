@@ -19,6 +19,12 @@ default:
                 - 0.9
         histName: 
             - totalEnergy/ResVsCosTheta
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 
 JER_RMS90_totalE_BG_vs_noBg_365gev:
         fileName:

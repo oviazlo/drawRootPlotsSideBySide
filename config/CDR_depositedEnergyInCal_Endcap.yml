@@ -1,0 +1,42 @@
+default:
+        dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/outData/FCCee_o1_v03/overlay/
+        legPos:
+                - 0.6
+                - 0.7
+                - 0.9
+                - 0.9
+        xAxisTitleSize: 0.06
+        
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
+        xAxisRange:
+                - 0.0
+                - 3000.0
+        legTitle:
+                - "ECAL Endcap"
+                - "HCAL Endcap"
+        histName: 
+                - ECALEndcap/CAL/energyVsRadius
+                - HCALEndcap/CAL/energyVsRadius
+        yAxisLabel: "Deposited energy [GeV / 50 mm / BX]"
+        yAxisTitleSize: 0.05
+        yAxisTitleOffset: 1.7
+
+365GeV_overlay_energyVsRadius_Endcap:
+        fileName:
+                - 365GeV_bigSample.root
+        yAxisRange:
+                - 0.0
+                - 4.0
+
+91GeV_overlay_energyVsRadius_Endcap:
+        fileName:
+                - 91GeV_bigSample.root
+        yAxisRange:
+                - 0.0
+                - 0.2
+        scaleFactor: 0.05

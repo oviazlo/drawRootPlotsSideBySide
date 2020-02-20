@@ -11,9 +11,9 @@ default:
         - 0.28 
         title: "#approx 45.6 GeV"
     # savePictDir: "JER_fitting_91GeV_logy"
-    # logY: True
+    logY: True
     savePictDir: "JER_fitting_91GeV"
-    logY: False
+    # logY: False
     legTitle:
         - ""
     yAxisRange:
@@ -35,6 +35,12 @@ default:
     yAxisTitleOffset: 1.3
     xAxisTitleSize: 0.055
     xAxisTitleOffset: 1.2
+    textLabel0:
+        pos:
+            - 0.0
+            - 1.2
+        title: "FCC-ee CLD"
+        TextSize: 0.04
 
 JER_91GeV_fit_hist0:
     histName:

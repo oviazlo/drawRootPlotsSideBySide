@@ -2,12 +2,9 @@ default:
         dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/PFAAnalysis/build_20jun2019/PhotonECAL/
         yAxisTitleOffset: 0.95
         savePictDir: "photonRes_21jun2019"
-        legPos:
-            - 0.6
-            - 0.76
-            - 0.8
-            - 0.9
-        markerSize: 1.2
+        legPos: [0.6, 0.65, 0.9, 0.9]
+        # markerSize: 1.2
+        markerSize: 1.5
         drawOption: AP
         sameDrawOption: P
         markerStyle:
@@ -22,10 +19,12 @@ default:
         histName: 
             - Graph
         yAxisLabel: "#sigma_{#gamma}/E_{#gamma} [%]"
-        yAxisRange:
-            - 1.5
-            - 10.0
+        yAxisRange: [1.5, 10.0]
         # drawHistFuncs: True
+        textLabel0:
+            pos: [0.0, 1.02]
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 
 photonRes_barrel_ecal40_ecal30_ecal20_ecal20_10:
         fileName:

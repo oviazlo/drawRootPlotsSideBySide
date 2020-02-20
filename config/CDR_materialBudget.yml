@@ -1,4 +1,10 @@
-materialBudget:
+nuclearInteractionLengthsCalorimeter:
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
         dirPrefix: /afs/cern.ch/work/v/viazlo/analysis/materialScan/dataFiles/ 
         fileName:
                 # - fcc_ECAL.root
@@ -30,3 +36,6 @@ materialBudget:
                 - 0
                 - 0
                 - 0
+        drawOption: HIST
+        sameDrawOption: HIST
+        markerSize: 0.001

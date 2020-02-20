@@ -23,6 +23,12 @@ default:
                 - 4.5 
                 - 25.0
         markerSize: 1.6
+        textLabel0:
+            pos:
+                - 0.0
+                - 1.02
+            title: "FCC-ee CLD"
+            TextSize: 0.04
 
 jun28_kaonRes_vs_energy:
         gridX: 1
