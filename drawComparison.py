@@ -25,7 +25,10 @@ def main(yamlFile):
         cfg = globalCfg[cfgIterator]
         print('\n[INFO]\tProcess plot: %s' % (cfgIterator))
 
-       
+        if ("silentMode" in cfg):
+            gROOT.SetBatch(cfg['silentMode'])
+            cfg.pop('silentMode')
+
         #********************************************************************************
         # create objects to draw
         #********************************************************************************
@@ -80,8 +83,8 @@ def main(yamlFile):
             cfg.pop('savePictDir')
         canvas.SaveAs("pictures/"+outHistName+".png")
         canvas.SaveAs("pictures/"+outHistName+".pdf")
-        canvas.SaveAs("pictures/"+outHistName+".eps")
-        canvas.SaveAs("pictures/"+outHistName+".C")
+        #  canvas.SaveAs("pictures/"+outHistName+".eps")
+        #  canvas.SaveAs("pictures/"+outHistName+".C")
 
         #********************************************************************************
         # Check for typos in yaml files

@@ -1,0 +1,43 @@
+default:
+        dirPrefix: /afs/cern.ch/work/o/oviazlo/HGCAL_DPG/
+        legPos:
+                - 0.45
+                - 0.65
+                - 0.65
+                - 0.9
+        yAxisRange:
+                - 0
+                - 1000
+        xAxisRange:
+                - 0.0
+                - 25
+        yAxisLabel: "Number of clusters"
+        xAxisLabel: "Number of cells per cluster"
+        fileName:
+            - modReco_kappa_3_hgcalPlots_nCellsPerLayerOnlyForTrueMIPHits/CMSSW_11_1_0_pre3/src/23289.0/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 3; Ecut: 3"
+
+
+layernCells_allHitsAreTrue_120mum_MIP_TICL_kappa_3_ecut3:
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_120_00"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_120_30"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_120_40"
+        legTitle:
+                - "120mum, layer 00"
+                - "120mum, layer 30"
+                - "120mum, layer 40"
+
+layernCells_allHitsAreTrue_200mum_MIP_TICL_kappa_3_ecut3:
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_200_00"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_200_30"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_200_40"
+        legTitle:
+                - "200mum, layer 00"
+                - "200mum, layer 30"
+                - "200mum, layer 40"

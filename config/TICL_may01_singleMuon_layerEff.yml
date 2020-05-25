@@ -1,0 +1,49 @@
+default:
+        silentMode: True
+        xAxisTitleSize: 0.05
+        xAxisTitleOffset: 1.3
+        dirPrefix: /afs/cern.ch/work/o/oviazlo/HGCAL_DPG/
+        savePictDir: "layerEff_noNoise"
+        legTitle:
+                - "layer 00"
+                - "layer 10"
+                - "layer 27"
+                - "layer 28"
+                - "layer 30"
+                - "layer 45"
+        legPos:
+                - 0.45
+                - 0.6
+                - 0.65
+                - 0.9
+        fileName:
+            - kappa_9_nMissingLayers_3_noNoise/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+
+layerCluster_effic_vs_layer_noNoise:
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer00"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer10"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer27"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer28"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer30"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer45"
+        xAxisLabel: "#eta"
+        yAxisLabel: "Cluster Layer Efficiency"
+        yAxisRange:
+                - 0
+                - 1.05
+
+
+layerCluster_totclusternum_vs_layer_noNoise:
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/totclusternum_layer_00"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/totclusternum_layer_10"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/totclusternum_layer_27"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/totclusternum_layer_28"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/totclusternum_layer_30"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/totclusternum_layer_45"
+        xAxisLabel: "Number of clusters per layer"
+        yAxisLabel: "Entries"
+        xAxisRange:
+                - 0
+                - 20

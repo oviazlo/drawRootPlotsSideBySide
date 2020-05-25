@@ -1,0 +1,54 @@
+default:
+        silentMode: True
+        xAxisTitleSize: 0.05
+        xAxisTitleOffset: 1.3
+        dirPrefix: /afs/cern.ch/work/o/oviazlo/HGCAL_DPG/
+        savePictDir: "pre7_layerCluster_Score_layercl2caloparticle_perlayer"
+        # logY: True
+        legTitle:
+                - "layer 00"
+                - "layer 10"
+                - "layer 27"
+                - "layer 28"
+                - "layer 30"
+                - "layer 45"
+        legPos:
+                - 0.45
+                - 0.6
+                - 0.65
+                - 0.9
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/Score_layercl2caloparticle_perlayer00"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/Score_layercl2caloparticle_perlayer10"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/Score_layercl2caloparticle_perlayer27"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/Score_layercl2caloparticle_perlayer28"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/Score_layercl2caloparticle_perlayer30"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/Score_layercl2caloparticle_perlayer45"
+        yAxisLabel: "Entries"
+        xAxisLabel: "Score of Layer Cluster per CaloParticle"
+        logY: True
+        yAxisRange:
+                - 0.9
+                - 1100
+        # yAxisRange:
+        #         - 0.0
+        #         - 1050
+        xAxisRange:
+                - -0.1
+                - 1.05
+
+kappa_5_cosTheta_0_97_noNoise:
+        fileName:
+            - pre7_kappa_5_minCosTheta_0_97_noNoise/CMSSW_11_1_0_pre7/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        
+kappa_5_noNoise:
+        fileName:
+            - pre7_kappa_5_noNoise/CMSSW_11_1_0_pre7/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+
+kappa_5_cosTheta_0_97:
+        fileName:
+            - pre7_kappa_5_minCosTheta_0_97/CMSSW_11_1_0_pre7/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        
+kappa_5:
+        fileName:
+            - pre7_kappa_5/CMSSW_11_1_0_pre7/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root

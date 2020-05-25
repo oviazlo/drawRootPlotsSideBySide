@@ -1,0 +1,72 @@
+default:
+        silentMode: True
+        legTitle:
+                - "nMissingLayers = 0"
+                - "nMissingLayers = 1"
+        dirPrefix: /afs/cern.ch/work/o/oviazlo/HGCAL_DPG/
+        markerStyle:
+                - 1
+                - 2
+        #         - 0
+        histName:
+                - "h_avCosThetaPerLayer"
+        legPos:
+                - 0.45
+                - 0.25
+                - 0.65
+                - 0.4
+        yAxisRange:
+                - 0.95
+                - 1.01
+        xAxisRange:
+                - 0
+                - 150
+        yAxisLabel: "Mean(cos(#theta))"
+        xAxisLabel: "Layer number"
+        savePictDir: "debugCellularAutomaton"
+
+avCosThetaPerLayer_cosTheta_0_94:
+        fileName:
+            - kappa_5_nMissingLayers_0/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/logs_defaultCosTheta/nMissingLayers0/hists.root
+            - kappa_5_nMissingLayers_0/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/logs_defaultCosTheta/nMissingLayers1/hists.root
+
+
+avCosThetaPerLayer_nMissingLayers0_cosTheta_0_94:
+        legTitle:
+                - "nMissingLayers = 0"
+        fileName:
+            - kappa_5_nMissingLayers_0/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/logs_defaultCosTheta/nMissingLayers0/hists.root
+
+avCosThetaPerLayer_nMissingLayers1_cosTheta_0_94:
+        legTitle:
+                - "nMissingLayers = 1"
+        fileName:
+            - kappa_5_nMissingLayers_0/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/logs_defaultCosTheta/nMissingLayers1/hists.root
+
+
+avCosThetaPerLayer_nMissingLayers0_cosTheta_0_99:
+        legTitle:
+                - "nMissingLayers = 0"
+        fileName:
+            - kappa_5_nMissingLayers_0_minCosTheta_0_99/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/hists.root
+
+avCosThetaPerLayer_nMissingLayers1_cosTheta_0_99:
+        legTitle:
+                - "nMissingLayers = 1"
+        fileName:
+            - kappa_5_nMissingLayers_1_minCosTheta_0_99/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/hists.root
+
+avCosThetaPerLayer_nMissingLayers1_cosTheta_0_94_parallelToTheBeam:
+        legTitle:
+                - "nMissingLayers = 1, || to the beam"
+        fileName:
+            - kappa_5_nMissingLayers_0/CMSSW_11_1_0_pre6/src/SingleMuP100Eta1p7_2p7_parallelToTheBeamline/hists.root
+
+avCosThetaPerLayer_nMissingLayers1_cosTheta_0_94_comparison:
+        legTitle:
+                - "|| to the beam"
+                - "from (0,0,0)"
+        fileName:
+            - kappa_5_nMissingLayers_0/CMSSW_11_1_0_pre6/src/SingleMuP100Eta1p7_2p7_parallelToTheBeamline/hists.root
+            - kappa_5_nMissingLayers_0/CMSSW_11_1_0_pre6/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/logs_defaultCosTheta/nMissingLayers1/hists.root
+

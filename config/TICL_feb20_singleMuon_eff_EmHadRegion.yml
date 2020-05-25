@@ -1,0 +1,44 @@
+default:
+        silentMode: True
+        xAxisTitleSize: 0.05
+        xAxisTitleOffset: 1.3
+        dirPrefix: /afs/cern.ch/work/o/oviazlo/HGCAL_DPG/
+        savePictDir: "layerEff_EMHadRegion"
+        legTitle:
+                - "layer 26"
+                - "layer 27"
+                - "layer 28"
+                - "layer 29"
+                - "layer 76"
+                - "layer 77"
+                - "layer 78"
+                - "layer 79"
+        legPos:
+                - 0.45
+                - 0.6
+                - 0.65
+                - 0.9
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer26"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer27"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer28"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer29"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer76"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer77"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer78"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/effic_eta_layer79"
+        xAxisLabel: "#eta"
+        yAxisLabel: "Cluster Layer Efficiency"
+        yAxisRange:
+                - 0
+                - 1.05
+
+layerCluster_effic_vs_layer__nMissingLayers_1_kappa5:
+        fileName:
+            - kappa_5_nMissingLayers_1/CMSSW_11_1_X_2020-03-26-1100/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+
+
+layerCluster_effic_vs_layer__nMissingLayers_1_kappa3:
+        fileName:
+            - kappa_3_nMissingLayers_1/CMSSW_11_1_X_2020-03-26-1100/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+

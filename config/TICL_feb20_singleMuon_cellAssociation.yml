@@ -1,0 +1,66 @@
+default:
+        legTitle:
+                - "layer 00"
+                - "layer 30"
+                - "layer 40"
+        dirPrefix: /afs/cern.ch/work/o/oviazlo/HGCAL_DPG/
+        # markerStyle:
+        #         - 0
+        #         - 0
+        #         - 0
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellAssociation_perlayer00"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellAssociation_perlayer30"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellAssociation_perlayer40"
+        legPos:
+                - 0.45
+                - 0.65
+                - 0.65
+                - 0.9
+        yAxisRange:
+                - 0
+                - 4000
+        # xAxisRange:
+        #         - 0.0
+        #         - 20
+        yAxisLabel: "Entries"
+        xAxisLabel: "Cell Association"
+
+
+
+layerAssociation_MIP_TICL_kappa_9_ecut3:
+        fileName:
+            - CMSSW_11_1_X_2020-02-17-2300/src/23289.0_SingleMuPt15Eta1p7_2p7+SingleMuPt15Eta1p7_2p7_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 9; Ecut: 3"
+
+layerAssociation_MIP_TICL_kappa_5_ecut2:
+        fileName:
+            - modPackage_MIPchange_kappa_5_ecut2/CMSSW_11_1_X_2020-02-17-2300/src/23289.0/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 5; Ecut: 2"
+
+
+layerAssociation_MIP_TICL_kappa_5_ecut3:
+        fileName:
+            - modPackage_MIPchange_kappa_5/CMSSW_11_1_X_2020-02-17-2300/src/23289.0/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 5; Ecut: 3"
+
+layerAssociation_MIP_TICL_kappa_3_ecut3:
+        fileName:
+            - modPackage_MIPchange/CMSSW_11_1_X_2020-02-17-2300/src/23289.0/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 3; Ecut: 3"

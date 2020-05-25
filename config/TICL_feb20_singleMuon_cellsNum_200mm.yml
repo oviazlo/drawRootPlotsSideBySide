@@ -1,0 +1,78 @@
+default:
+        legTitle:
+                - "layer 00"
+                - "layer 30"
+                - "layer 40"
+        dirPrefix: /afs/cern.ch/work/o/oviazlo/HGCAL_DPG/
+        histName:
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_200_00"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_200_30"
+                - "DQMData/Run 1/HGCAL/Run summary/HGCalValidator/hgcalLayerClusters/cellsnum_perthick_perlayer_200_40"
+        legPos:
+                - 0.45
+                - 0.65
+                - 0.65
+                - 0.9
+        yAxisRange:
+                - 0
+                - 1000
+        xAxisRange:
+                - 0.0
+                - 25
+        yAxisLabel: "Number of clusters"
+        xAxisLabel: "Number of cells per cluster, 200mum"
+
+
+layernCells_200mum_MIP_TICL_kappa_9_ecut3:
+        fileName:
+            - nominalReco_hgcalPlots/CMSSW_11_1_0_pre3/src/23289.0/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 9; Ecut: 3"
+
+layernCells_200mum_MIP_TICL_kappa_5_ecut3:
+        fileName:
+            - modPackage_MIPchange_hgcalPlots/CMSSW_11_1_0_pre3/src/23289.0/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 5; Ecut: 3"
+
+layernCells_200mum_MIP_TICL_kappa_3_ecut3:
+        fileName:
+            - modPackage_MIPchange_kappa_3_hgcalPlots/CMSSW_11_1_0_pre3/src/23289.0/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 3; Ecut: 3"
+
+layernCells_200mum_Neutrino_TICL_kappa_9_ecut3:
+        fileName:
+            - nominalReco_hgcalPlots/CMSSW_11_1_0_pre3/src/23261.0_NuGun+SingleNuE10_cf_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 9; Ecut: 3"
+
+layernCells_200mum_Neutrino_TICL_kappa_5_ecut3:
+        fileName:
+            - modPackage_MIPchange_hgcalPlots/CMSSW_11_1_0_pre3/src/23261.0_NuGun+SingleNuE10_cf_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 5; Ecut: 3"
+
+layernCells_200mum_Neutrino_TICL_kappa_3_ecut3:
+        fileName:
+            - modPackage_MIPchange_kappa_3_hgcalPlots/CMSSW_11_1_0_pre3/src/23261.0_NuGun+SingleNuE10_cf_2026D49_GenSimHLBeamSpotFull+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/DQM_V0001_R000000001__Global__CMSSW_X_Y_Z__RECO.root
+        textLabel0:
+            pos:
+                - 0.3
+                - 0.4
+            title: "Kappa: 3; Ecut: 3"
